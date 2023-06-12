@@ -2697,7 +2697,7 @@
     </Element>
     <Element type="model" name="GRP Mirrors">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="300" endTime="4250" palette="0"/>
+        <Effect ref="0" name="On" selected="1" startTime="300" endTime="3750" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Outer Main Beams">
