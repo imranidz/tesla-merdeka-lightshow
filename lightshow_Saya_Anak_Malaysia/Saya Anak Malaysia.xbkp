@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.08</version>
+    <version>2023.09.2</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/imranidz/Documents/GitHub/tesla-merdeka-lightshow/Saya Anak Malaysia 2020 (Bahasa Malaysia Version) - MALAYSIA DAY SONG.mp3</mediaFile>
+    <mediaFile>/Users/darrylfzx/Github/tesla-merdeka-lightshow/lightshow_Saya_Anak_Malaysia/Saya Anak Malaysia 2020 (Bahasa Malaysia Version) - MALAYSIA DAY SONG.mp3</mediaFile>
     <sequenceDuration>204.265</sequenceDuration>
     <imageDir/>
   </head>
@@ -23,8 +23,7 @@
   </ColorPalettes>
   <EffectDB>
     <Effect></Effect>
-    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
-    <Effect>E_CHECKBOX_Music_Fade=0,E_CHECKBOX_Music_LogarithmicX=0,E_CHECKBOX_Music_Scale=0,E_CHOICE_Music_Colour=Distinct,E_CHOICE_Music_Scaling=None,E_CHOICE_Music_Type=Morph,E_SLIDER_Music_Bars=20,E_SLIDER_Music_EndNote=80,E_SLIDER_Music_Offset=0,E_SLIDER_Music_Sensitivity=50,E_SLIDER_Music_StartNote=60</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=20,E_TEXTCTRL_Eff_On_Start=20</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -114,8 +113,8 @@
         <Effect label="1" startTime="1300" endTime="3250"></Effect>
         <Effect label="2" startTime="3250" endTime="5250"></Effect>
         <Effect label="3" startTime="5250" endTime="7200"></Effect>
-        <Effect label="4" startTime="7200" endTime="9200"></Effect>
-        <Effect label="5" startTime="9200" endTime="11150"></Effect>
+        <Effect label="4" startTime="7200" endTime="7800"></Effect>
+        <Effect label="5" startTime="7800" endTime="11150"></Effect>
         <Effect label="6" startTime="11150" endTime="13100"></Effect>
         <Effect label="7" startTime="13100" endTime="15100"></Effect>
         <Effect label="8" startTime="15100" endTime="17050"></Effect>
@@ -1710,25 +1709,43 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Aux Park">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2400" endTime="3100" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 4">
       <EffectLayer>
-        <Effect ref="0" name="Color Wash" startTime="350" endTime="1350" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2000" endTime="2700" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 5">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="1900" endTime="2600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 6">
       <EffectLayer>
-        <Effect ref="0" name="Off" startTime="300" endTime="1200" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="1800" endTime="2500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Falcon Doors">
-      <EffectLayer>
-        <Effect ref="0" name="On" startTime="700" endTime="1500" palette="0"/>
-      </EffectLayer>
+      <EffectLayer/>
     </Element>
     <Element type="model" name="GRP Doors (Front)">
       <EffectLayer/>
@@ -1738,28 +1755,45 @@
     </Element>
     <Element type="model" name="GRP Fogs (Front)">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="500" endTime="1500" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2300" endTime="3000" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Turns (Front)">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2200" endTime="2900" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+        <Effect ref="1" name="On" id="5" startTime="58800" endTime="59800" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Front)">
-      <EffectLayer>
-        <Effect ref="1" name="Bars" startTime="1100" endTime="2100" palette="0"/>
-      </EffectLayer>
-    </Element>
-    <Element type="model" name="GRP Inner Main Beams">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="GRP Mirrors">
+    <Element type="model" name="GRP Inner Main Beams">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="500" endTime="1500" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2050" endTime="2750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
       </EffectLayer>
+    </Element>
+    <Element type="model" name="GRP Mirrors">
+      <EffectLayer/>
     </Element>
     <Element type="model" name="GRP Outer Main Beams">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="650" endTime="1650" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="1950" endTime="2650" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Door Handles (Rear)">
@@ -1767,7 +1801,11 @@
     </Element>
     <Element type="model" name="GRP Turns (Rear)">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="600" endTime="1600" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="1900" endTime="2600" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Rear)">
@@ -1775,14 +1813,31 @@
     </Element>
     <Element type="model" name="GRP Side Markers">
       <EffectLayer>
-        <Effect ref="2" name="Music Effect" startTime="2150" endTime="3150" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="3" startTime="2500" endTime="3200" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="5" startTime="3750" endTime="4050" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Side Repeaters">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2600" endTime="3250" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Signatures">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2100" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+        <Effect ref="1" name="On" id="5" startTime="24000" endTime="25000" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows">
       <EffectLayer/>
@@ -1791,7 +1846,13 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="GRP Tail Lights">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2000" endTime="2700" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Rear Window">
       <EffectLayer/>
@@ -1800,7 +1861,13 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Brake Lights">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="1800" endTime="2500" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Charge Port">
       <EffectLayer/>
@@ -1809,13 +1876,31 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="License Plate">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2300" endTime="3000" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Rear Fog Lights">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2200" endTime="2900" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Reverse Lights">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="Off" id="1" startTime="1000" endTime="1800" palette="0"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="2100" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="Off" id="4" startTime="3750" endTime="4050" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Left Tail">
       <EffectLayer/>
@@ -1932,7 +2017,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>0</lastView>
+  <lastView>1</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
