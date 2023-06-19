@@ -1711,108 +1711,234 @@
     <Element type="model" name="GRP Aux Park">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2400" endTime="3100" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2400" endTime="3100" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5800" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="10000" endTime="12500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="14500" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="19500" endTime="23500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 4">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2000" endTime="2700" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2000" endTime="2700" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6300" endTime="7000" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12000" endTime="12500" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="17000" endTime="21000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 5">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="1900" endTime="2600" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="1900" endTime="2600" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6400" endTime="7050" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8500" endTime="9000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9500" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10500" endTime="11000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11500" endTime="12000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="16500" endTime="20500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 6">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="1800" endTime="2500" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="1800" endTime="2500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6550" endTime="7050" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12000" endTime="12500" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="16000" endTime="20000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Falcon Doors">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" id="1" startTime="16000" endTime="20000" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Doors (Front)">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="16000" endTime="20000" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Door Handles (Front)">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="16000" endTime="18000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="20000" endTime="22000" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Fogs (Front)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2300" endTime="3000" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2300" endTime="3000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6000" endTime="6700" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8000" endTime="11650" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="14000" endTime="14500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="15000" endTime="15500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Turns (Front)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2200" endTime="2900" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
-        <Effect ref="1" name="On" id="5" startTime="58800" endTime="59800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2200" endTime="2900" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5850" endTime="6550" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="1" name="On" id="7" startTime="58800" endTime="59800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Front)">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="8000" endTime="15800" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Inner Main Beams">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2050" endTime="2750" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2050" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5950" endTime="6700" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8500" endTime="9000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9500" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10500" endTime="11000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11500" endTime="12000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="18000" endTime="22000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Mirrors">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="8000" endTime="15800" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="16000" endTime="18000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="20000" endTime="22000" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Outer Main Beams">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="1950" endTime="2650" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="1950" endTime="2650" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6100" endTime="6800" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12000" endTime="12500" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="18500" endTime="22500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Door Handles (Rear)">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="18000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="22000" endTime="23750" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Turns (Rear)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="1900" endTime="2600" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="1900" endTime="2600" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6100" endTime="6800" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Rear)">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="8000" endTime="15800" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="GRP Side Markers">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="3" startTime="2500" endTime="3200" palette="0"/>
-        <Effect ref="0" name="On" id="4" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2500" endTime="3200" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5900" endTime="6600" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9500" endTime="12000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="14000" endTime="14500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="19000" endTime="23000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Side Repeaters">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2600" endTime="3250" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2650" endTime="3250" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5700" endTime="6400" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="10000" endTime="12500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="14500" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="15500" endTime="16000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Signatures">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2100" endTime="2800" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
-        <Effect ref="1" name="On" id="5" startTime="24000" endTime="25000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2100" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6200" endTime="6900" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8500" endTime="9000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9500" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10500" endTime="11000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11500" endTime="12000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="17500" endTime="21500" palette="0"/>
+        <Effect ref="1" name="On" id="15" startTime="24000" endTime="25000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows">
@@ -1824,8 +1950,20 @@
     <Element type="model" name="GRP Tail Lights">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2000" endTime="2700" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2000" endTime="2700" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6000" endTime="6700" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8500" endTime="9000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9500" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10500" endTime="11000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11500" endTime="12000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="17500" endTime="21500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Rear Window">
@@ -1837,8 +1975,20 @@
     <Element type="model" name="Brake Lights">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="1800" endTime="2500" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="1800" endTime="2500" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="6200" endTime="6900" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12000" endTime="12500" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="18000" endTime="22000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Charge Port">
@@ -1850,22 +2000,52 @@
     <Element type="model" name="License Plate">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2300" endTime="3000" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2300" endTime="3000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5700" endTime="6400" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9000" endTime="11650" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="13000" endTime="15650" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="16000" endTime="20000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Rear Fog Lights">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2200" endTime="2900" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2200" endTime="2900" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5800" endTime="6500" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8500" endTime="9000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9500" endTime="10000" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10500" endTime="11000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11500" endTime="12000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="16500" endTime="20500" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Reverse Lights">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
-        <Effect ref="0" name="Color Wash" id="2" startTime="2100" endTime="2800" palette="0"/>
-        <Effect ref="0" name="On" id="3" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2100" endTime="2800" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="5900" endTime="6600" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="8000" endTime="8500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9000" endTime="9500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="10000" endTime="10500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11000" endTime="11500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12000" endTime="12500" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13000" endTime="13500" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="17000" endTime="21000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Left Tail">
@@ -1974,7 +2154,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Liftgate">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="16000" endTime="23750" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Front Window">
       <EffectLayer/>
@@ -1983,7 +2165,7 @@
       <EffectLayer/>
     </Element>
   </ElementEffects>
-  <lastView>0</lastView>
+  <lastView>1</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
