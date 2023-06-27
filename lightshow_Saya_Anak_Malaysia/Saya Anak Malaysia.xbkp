@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.08</version>
+    <version>2023.09.2</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -12,7 +12,7 @@
     <comment></comment>
     <sequenceTiming>50 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>/Users/imranidz/Documents/GitHub/tesla-merdeka-lightshow/lightshow_Saya_Anak_Malaysia/Saya Anak Malaysia 2020 (Bahasa Malaysia Version) - MALAYSIA DAY SONG.mp3</mediaFile>
+    <mediaFile>/Users/darrylfzx/Github/tesla-merdeka-lightshow/lightshow_Saya_Anak_Malaysia/Saya Anak Malaysia 2020 (Bahasa Malaysia Version) - MALAYSIA DAY SONG.mp3</mediaFile>
     <sequenceDuration>204.265</sequenceDuration>
     <imageDir/>
   </head>
@@ -2521,6 +2521,7 @@
         <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="17000" endTime="21000" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="15" startTime="27850" endTime="28850" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 5">
@@ -2599,7 +2600,7 @@
         <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="5850" endTime="6550" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
-        <Effect ref="1" name="On" id="6" startTime="58800" endTime="59800" palette="0"/>
+        <Effect ref="1" name="On" id="7" startTime="58800" endTime="59800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Front)">
@@ -2666,6 +2667,7 @@
         <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="6100" endTime="6800" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="7050" endTime="8000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="24700" endTime="26800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Rear)">
@@ -2719,7 +2721,6 @@
         <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="17500" endTime="21500" palette="0"/>
-        <Effect ref="1" name="On" id="15" startTime="24000" endTime="25000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows">
@@ -2745,6 +2746,7 @@
         <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="17500" endTime="21500" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="24500" endTime="26550" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Rear Window">
@@ -2770,6 +2772,7 @@
         <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="18000" endTime="22000" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="24900" endTime="27100" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Charge Port">
@@ -2789,6 +2792,7 @@
         <Effect ref="0" name="On" id="6" startTime="9000" endTime="11650" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="13000" endTime="15650" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="16000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="23850" endTime="25600" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Rear Fog Lights">
@@ -2808,6 +2812,7 @@
         <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="16500" endTime="20500" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="24000" endTime="25800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Reverse Lights">
@@ -2827,22 +2832,31 @@
         <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="17000" endTime="21000" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="24150" endTime="26000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Left Tail">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Left Outer Main Beam">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="24700" endTime="25500" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Outer Main Beam">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" id="1" startTime="26400" endTime="27300" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Left Inner Main Beam">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="24400" endTime="25300" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Inner Main Beam">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="26200" endTime="27100" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Left Signature">
       <EffectLayer/>
@@ -2851,25 +2865,37 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Left Channel 4">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="24200" endTime="25100" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 4">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="26050" endTime="26950" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Left Channel 5">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="24000" endTime="24900" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 5">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="25800" endTime="26700" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Left Front Turn">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Left Channel 6">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="23800" endTime="24700" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 6">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="25600" endTime="26500" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Front Turn">
       <EffectLayer/>
