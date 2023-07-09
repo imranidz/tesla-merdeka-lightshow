@@ -29,7 +29,7 @@
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="Words" visible="1" views="Master View,Group View,Old View" active="0"/>
+    <Element collapsed="0" type="timing" name="Lyrics" visible="1" views="Master View,Group View,Old View" active="1"/>
     <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="1"/>
     <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Beat Spectral Difference" visible="1" views="" active="0"/>
@@ -40,6 +40,8 @@
     <Element collapsed="0" type="timing" name="Smoothed Detection Function" visible="1" views="Group View" active="0"/>
     <Element collapsed="0" type="timing" name="Tonic Pitch_2" visible="1" views="Group View" active="1"/>
     <Element collapsed="0" type="timing" name="Key" visible="1" views="Group View" active="0"/>
+    <Element collapsed="0" type="timing" name="Words" visible="1" views="Group View" active="1"/>
+    <Element collapsed="0" type="timing" name="References" visible="1" views="Group View" active="1"/>
     <Element collapsed="0" type="model" name="GRP Aux Park" visible="1"/>
     <Element collapsed="0" type="model" name="GRP Channel 4" visible="1"/>
     <Element collapsed="0" type="model" name="GRP Channel 5" visible="1"/>
@@ -110,26 +112,26 @@
     <Element collapsed="0" type="model" name="Right Front Door Handle" visible="1"/>
   </DisplayElements>
   <ElementEffects>
-    <Element type="timing" name="Words">
+    <Element type="timing" name="Lyrics">
       <EffectLayer>
         <Effect label="Saya anak Malaysia!" startTime="0" endTime="4250"></Effect>
-        <Effect label="Saya anak Malaysia!" startTime="4250" endTime="8500"></Effect>
-        <Effect label="Saya anak Malaysia!" startTime="8500" endTime="12750"></Effect>
-        <Effect label="Saya anak Malaysia!" startTime="12750" endTime="17000"></Effect>
-        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="17000" endTime="21250"></Effect>
-        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="21250" endTime="25500"></Effect>
-        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="25500" endTime="29750"></Effect>
-        <Effect label="Sembilan belas lima puluh tujuh" startTime="29750" endTime="34000"></Effect>
-        <Effect label="Bulan lapan kita merdeka" startTime="34000" endTime="38250"></Effect>
-        <Effect label="Setelah dijajah oleh orang Inggeris" startTime="38250" endTime="42500"></Effect>
-        <Effect label="Kamikaze dan Portugis" startTime="42500" endTime="46750"></Effect>
-        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="46750" endTime="51000"></Effect>
-        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="51000" endTime="55250"></Effect>
-        <Effect label="Dari Perlis ke Kota Kinabalu" startTime="55250" endTime="59500"></Effect>
-        <Effect label="Rakyat bersatu dan maju" startTime="59500" endTime="63750"></Effect>
-        <Effect label="Bumi bertuah, hasil melimpah" startTime="63750" endTime="68000"></Effect>
-        <Effect label="Siapa rajin, hidup mewah" startTime="68000" endTime="72250"></Effect>
-        <Effect label="Saya anak Malaysia!" startTime="72250" endTime="76500"></Effect>
+        <Effect label="Saya anak Malaysia!" startTime="4250" endTime="8200"></Effect>
+        <Effect label="Saya anak Malaysia!" startTime="8200" endTime="12100"></Effect>
+        <Effect label="Saya anak Malaysia!" startTime="12100" endTime="16050"></Effect>
+        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="16050" endTime="20050"></Effect>
+        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="20050" endTime="22950"></Effect>
+        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="22950" endTime="23900"></Effect>
+        <Effect label="Sembilan belas lima puluh tujuh" startTime="23900" endTime="27850"></Effect>
+        <Effect label="Bulan lapan kita merdeka" startTime="27850" endTime="31800"></Effect>
+        <Effect label="Setelah dijajah oleh orang Inggeris" startTime="31800" endTime="35750"></Effect>
+        <Effect label="Kamikaze dan Portugis" startTime="35750" endTime="39650"></Effect>
+        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="39650" endTime="43600"></Effect>
+        <Effect label="Owhhh. . . owhhh. . . owhhh. . ." startTime="43600" endTime="47500"></Effect>
+        <Effect label="Dari Perlis ke Kota Kinabalu" startTime="47500" endTime="51450"></Effect>
+        <Effect label="Rakyat bersatu dan maju" startTime="51450" endTime="55400"></Effect>
+        <Effect label="Bumi bertuah, hasil melimpah" startTime="55400" endTime="59300"></Effect>
+        <Effect label="Siapa rajin, hidup mewah" startTime="59300" endTime="63250"></Effect>
+        <Effect label="Saya anak Malaysia!" startTime="63250" endTime="67300"></Effect>
         <Effect label="Saya anak Malaysia!" startTime="76500" endTime="80750"></Effect>
         <Effect label="Saya anak Malaysia!" startTime="80750" endTime="85000"></Effect>
         <Effect label="Saya anak Malaysia!" startTime="85000" endTime="89250"></Effect>
@@ -162,68 +164,48 @@
         <Effect label="SAYA ANAK MALAYSIA!" startTime="199750" endTime="204000"></Effect>
       </EffectLayer>
       <EffectLayer>
-        <Effect label="Saya" startTime="0" endTime="1400"></Effect>
-        <Effect label="anak" startTime="1400" endTime="2850"></Effect>
-        <Effect label="Malaysia" startTime="2850" endTime="4250"></Effect>
-        <Effect label="Saya" startTime="4250" endTime="5650"></Effect>
-        <Effect label="anak" startTime="5650" endTime="7100"></Effect>
-        <Effect label="Malaysia" startTime="7100" endTime="8500"></Effect>
-        <Effect label="Saya" startTime="8500" endTime="9900"></Effect>
-        <Effect label="anak" startTime="9900" endTime="11350"></Effect>
-        <Effect label="Malaysia" startTime="11350" endTime="12750"></Effect>
-        <Effect label="Saya" startTime="12750" endTime="14150"></Effect>
-        <Effect label="anak" startTime="14150" endTime="15600"></Effect>
-        <Effect label="Malaysia" startTime="15600" endTime="17000"></Effect>
-        <Effect label="Owhhh" startTime="17000" endTime="18400"></Effect>
-        <Effect label="owhhh" startTime="18400" endTime="19850"></Effect>
-        <Effect label="owhhh" startTime="19850" endTime="21250"></Effect>
-        <Effect label="Owhhh" startTime="21250" endTime="22650"></Effect>
-        <Effect label="owhhh" startTime="22650" endTime="24100"></Effect>
-        <Effect label="owhhh" startTime="24100" endTime="25500"></Effect>
-        <Effect label="Owhhh" startTime="25500" endTime="26900"></Effect>
-        <Effect label="owhhh" startTime="26900" endTime="28350"></Effect>
-        <Effect label="owhhh" startTime="28350" endTime="29750"></Effect>
-        <Effect label="Sembilan" startTime="29750" endTime="30600"></Effect>
-        <Effect label="belas" startTime="30600" endTime="31450"></Effect>
-        <Effect label="lima" startTime="31450" endTime="32300"></Effect>
-        <Effect label="puluh" startTime="32300" endTime="33150"></Effect>
-        <Effect label="tujuh" startTime="33150" endTime="34000"></Effect>
-        <Effect label="Bulan" startTime="34000" endTime="35050"></Effect>
-        <Effect label="lapan" startTime="35050" endTime="36100"></Effect>
-        <Effect label="kita" startTime="36100" endTime="37200"></Effect>
-        <Effect label="merdeka" startTime="37200" endTime="38250"></Effect>
-        <Effect label="Setelah" startTime="38250" endTime="39100"></Effect>
-        <Effect label="dijajah" startTime="39100" endTime="39950"></Effect>
-        <Effect label="oleh" startTime="39950" endTime="40800"></Effect>
-        <Effect label="orang" startTime="40800" endTime="41650"></Effect>
-        <Effect label="Inggeris" startTime="41650" endTime="42500"></Effect>
-        <Effect label="Kamikaze" startTime="42500" endTime="43900"></Effect>
-        <Effect label="dan" startTime="43900" endTime="45350"></Effect>
-        <Effect label="Portugis" startTime="45350" endTime="46750"></Effect>
-        <Effect label="Owhhh" startTime="46750" endTime="48150"></Effect>
-        <Effect label="owhhh" startTime="48150" endTime="49600"></Effect>
-        <Effect label="owhhh" startTime="49600" endTime="51000"></Effect>
-        <Effect label="Owhhh" startTime="51000" endTime="52400"></Effect>
-        <Effect label="owhhh" startTime="52400" endTime="53850"></Effect>
-        <Effect label="owhhh" startTime="53850" endTime="55250"></Effect>
-        <Effect label="Dari" startTime="55250" endTime="56100"></Effect>
-        <Effect label="Perlis" startTime="56100" endTime="56950"></Effect>
-        <Effect label="ke" startTime="56950" endTime="57800"></Effect>
-        <Effect label="Kota" startTime="57800" endTime="58650"></Effect>
-        <Effect label="Kinabalu" startTime="58650" endTime="59500"></Effect>
-        <Effect label="Rakyat" startTime="59500" endTime="60550"></Effect>
-        <Effect label="bersatu" startTime="60550" endTime="61600"></Effect>
-        <Effect label="dan" startTime="61600" endTime="62700"></Effect>
-        <Effect label="maju" startTime="62700" endTime="63750"></Effect>
-        <Effect label="Bumi" startTime="63750" endTime="64800"></Effect>
-        <Effect label="bertuah" startTime="64800" endTime="65850"></Effect>
-        <Effect label="hasil" startTime="65850" endTime="66950"></Effect>
-        <Effect label="melimpah" startTime="66950" endTime="68000"></Effect>
-        <Effect label="Siapa" startTime="68000" endTime="69050"></Effect>
-        <Effect label="rajin" startTime="69050" endTime="70100"></Effect>
-        <Effect label="hidup" startTime="70100" endTime="71200"></Effect>
-        <Effect label="mewah" startTime="71200" endTime="72250"></Effect>
-        <Effect label="Saya" startTime="72250" endTime="73650"></Effect>
+        <Effect label="Saya" startTime="0" endTime="1800"></Effect>
+        <Effect label="anak" startTime="1800" endTime="2250"></Effect>
+        <Effect label="Malaysia" startTime="2250" endTime="4250"></Effect>
+        <Effect label="Saya" startTime="4250" endTime="5700"></Effect>
+        <Effect label="anak" startTime="5700" endTime="6200"></Effect>
+        <Effect label="Malaysia" startTime="6200" endTime="8200"></Effect>
+        <Effect label="Saya" startTime="8200" endTime="9650"></Effect>
+        <Effect label="anak" startTime="9650" endTime="10150"></Effect>
+        <Effect label="Malaysia" startTime="10150" endTime="12100"></Effect>
+        <Effect label="Saya" startTime="12100" endTime="13600"></Effect>
+        <Effect label="anak" startTime="13600" endTime="14100"></Effect>
+        <Effect label="Malaysia" startTime="14100" endTime="16050"></Effect>
+        <Effect label="Owhhh" startTime="16050" endTime="18050"></Effect>
+        <Effect label="owhhh" startTime="18050" endTime="19500"></Effect>
+        <Effect label="owhhh" startTime="19500" endTime="20450"></Effect>
+        <Effect label="Owhhh" startTime="20450" endTime="21000"></Effect>
+        <Effect label="owhhh" startTime="21000" endTime="21450"></Effect>
+        <Effect label="owhhh" startTime="21450" endTime="21950"></Effect>
+        <Effect label="Owhhh" startTime="21950" endTime="22450"></Effect>
+        <Effect label="owhhh" startTime="22450" endTime="22950"></Effect>
+        <Effect label="owhhh" startTime="22950" endTime="23900"></Effect>
+        <Effect label="Sembilan" startTime="23900" endTime="24700"></Effect>
+        <Effect label="belas" startTime="24700" endTime="25650"></Effect>
+        <Effect label="lima" startTime="25650" endTime="26150"></Effect>
+        <Effect label="puluh" startTime="26150" endTime="26700"></Effect>
+        <Effect label="tujuh" startTime="26700" endTime="27850"></Effect>
+        <Effect label="Bulan" startTime="27850" endTime="28600"></Effect>
+        <Effect label="lapan" startTime="28600" endTime="29350"></Effect>
+        <Effect label="kita" startTime="29350" endTime="29800"></Effect>
+        <Effect label="merdeka" startTime="29800" endTime="31800"></Effect>
+        <Effect label="Setelah" startTime="31800" endTime="32500"></Effect>
+        <Effect label="dijajah" startTime="32500" endTime="33500"></Effect>
+        <Effect label="oleh" startTime="33500" endTime="34000"></Effect>
+        <Effect label="orang" startTime="34000" endTime="34500"></Effect>
+        <Effect label="Inggeris" startTime="34500" endTime="35750"></Effect>
+        <Effect label="Kamikaze" startTime="35750" endTime="37200"></Effect>
+        <Effect label="dan" startTime="37200" endTime="37700"></Effect>
+        <Effect label="Portugis" startTime="37700" endTime="39650"></Effect>
+        <Effect label="Owhhh" startTime="43600" endTime="44900"></Effect>
+        <Effect label="owhhh" startTime="44900" endTime="46200"></Effect>
+        <Effect label="owhhh" startTime="46200" endTime="47500"></Effect>
+        <Effect label="Saya" startTime="63250" endTime="64700"></Effect>
         <Effect label="anak" startTime="73650" endTime="75100"></Effect>
         <Effect label="Malaysia" startTime="75100" endTime="76500"></Effect>
         <Effect label="Saya" startTime="76500" endTime="77900"></Effect>
@@ -6584,6 +6566,428 @@
         <Effect label="Ab major" startTime="170000" endTime="204250"></Effect>
       </EffectLayer>
     </Element>
+    <Element type="timing" name="Words">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="References">
+      <EffectLayer>
+        <Effect label="Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia!  Owhhh owhhh owhhh Owhhh owhhh owhhh  Owhhh owhhh owhhh   Sembilan belas lima puluh tujuh Bulan lapan kita merdeka Setelah dijajah oleh orang Inggeris Kamikaze dan Portugis  Owhhh owhhh owhhh  Owhhh owhhh owhhh   Dari Perlis ke Kota Kinabalu Rakyat bersatu dan maju Bumi bertuah, hasil melimpah Siapa rajin, hidup mewah  Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia!  Owhhh owhhh owhhh  Owhhh owhhh owhhh   Melayu, Cina, Iban, India Kadazan Portugis pun ada, owhh  Semua kaya dengan budaya Di bawah kibaran satu bendera  Sa ya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia!  Hujan emas di negeri orang Hujan batu di negeri kita Walaupun cantik negeri orang Tentunya Malaysia cantik lagi  Melayu, Cina, Iban, India Kadazan Portugis pun ada, Semua kaya dengan budaya Di bawah kibaran satu bendera !  Sa ya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia!  Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia! Saya anak Malaysia!    SAYA ANAK MALAYSIA!" startTime="300" endTime="200450"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="SAYA" startTime="300" endTime="1700"></Effect>
+        <Effect label="ANAK" startTime="1700" endTime="2200"></Effect>
+        <Effect label="MALAYSIA" startTime="2200" endTime="3750"></Effect>
+        <Effect label="SAYA" startTime="4050" endTime="5650"></Effect>
+        <Effect label="ANAK" startTime="5650" endTime="6150"></Effect>
+        <Effect label="MALAYSIA" startTime="6150" endTime="7700"></Effect>
+        <Effect label="SAYA" startTime="8000" endTime="9600"></Effect>
+        <Effect label="ANAK" startTime="9600" endTime="10100"></Effect>
+        <Effect label="MALAYSIA" startTime="10100" endTime="11550"></Effect>
+        <Effect label="SAYA" startTime="11900" endTime="13500"></Effect>
+        <Effect label="ANAK" startTime="13500" endTime="14000"></Effect>
+        <Effect label="MALAYSIA" startTime="14000" endTime="15550"></Effect>
+        <Effect label="BREATH*" startTime="16000" endTime="16050"></Effect>
+        <Effect label="BREATH*" startTime="16050" endTime="16100"></Effect>
+        <Effect label="BREATH*" startTime="19900" endTime="19950"></Effect>
+        <Effect label="BREATH*" startTime="19950" endTime="20000"></Effect>
+        <Effect label="BREATH*" startTime="24450" endTime="24500"></Effect>
+        <Effect label="BREATH*" startTime="24500" endTime="24550"></Effect>
+        <Effect label="LIMA" startTime="25550" endTime="26050"></Effect>
+        <Effect label="BULAN" startTime="27750" endTime="29200"></Effect>
+        <Effect label="BREATH*" startTime="29200" endTime="29250"></Effect>
+        <Effect label="KITA" startTime="29250" endTime="29600"></Effect>
+        <Effect label="BREATH*" startTime="29600" endTime="29650"></Effect>
+        <Effect label="BREATH*" startTime="29650" endTime="29700"></Effect>
+        <Effect label="BREATH*" startTime="30150" endTime="30200"></Effect>
+        <Effect label="ORANG" startTime="33950" endTime="34400"></Effect>
+        <Effect label="BREATH*" startTime="36950" endTime="37000"></Effect>
+        <Effect label="BREATH*" startTime="37050" endTime="37100"></Effect>
+        <Effect label="DAN" startTime="37100" endTime="37450"></Effect>
+        <Effect label="BREATH*" startTime="37700" endTime="37750"></Effect>
+        <Effect label="BREATH*" startTime="37750" endTime="37800"></Effect>
+        <Effect label="BREATH*" startTime="37800" endTime="37850"></Effect>
+        <Effect label="BREATH*" startTime="37850" endTime="37900"></Effect>
+        <Effect label="DARI" startTime="37900" endTime="38000"></Effect>
+        <Effect label="BREATH*" startTime="38000" endTime="38050"></Effect>
+        <Effect label="KE" startTime="38050" endTime="38100"></Effect>
+        <Effect label="KOTA" startTime="39550" endTime="46950"></Effect>
+        <Effect label="BREATH*" startTime="48250" endTime="48300"></Effect>
+        <Effect label="BREATH*" startTime="48300" endTime="48350"></Effect>
+        <Effect label="DAN" startTime="53300" endTime="53800"></Effect>
+        <Effect label="MAJU" startTime="53800" endTime="54800"></Effect>
+        <Effect label="BREATH*" startTime="55950" endTime="56000"></Effect>
+        <Effect label="BREATH*" startTime="60350" endTime="60400"></Effect>
+        <Effect label="BREATH*" startTime="60400" endTime="60450"></Effect>
+        <Effect label="BREATH*" startTime="60450" endTime="60500"></Effect>
+        <Effect label="BREATH*" startTime="60500" endTime="60650"></Effect>
+        <Effect label="SAYA" startTime="63050" endTime="64700"></Effect>
+        <Effect label="ANAK" startTime="64700" endTime="65150"></Effect>
+        <Effect label="MALAYSIA" startTime="65150" endTime="66650"></Effect>
+        <Effect label="SAYA" startTime="66950" endTime="68600"></Effect>
+        <Effect label="ANAK" startTime="68600" endTime="69100"></Effect>
+        <Effect label="MALAYSIA" startTime="69100" endTime="70600"></Effect>
+        <Effect label="SAYA" startTime="70950" endTime="72500"></Effect>
+        <Effect label="ANAK" startTime="72600" endTime="73050"></Effect>
+        <Effect label="MALAYSIA" startTime="73050" endTime="74450"></Effect>
+        <Effect label="SAYA" startTime="74850" endTime="76400"></Effect>
+        <Effect label="ANAK" startTime="76500" endTime="77000"></Effect>
+        <Effect label="MALAYSIA" startTime="77000" endTime="78450"></Effect>
+        <Effect label="BREATH*" startTime="78950" endTime="79000"></Effect>
+        <Effect label="BREATH*" startTime="79000" endTime="79050"></Effect>
+        <Effect label="BREATH*" startTime="79050" endTime="79100"></Effect>
+        <Effect label="BREATH*" startTime="84500" endTime="84550"></Effect>
+        <Effect label="BREATH*" startTime="84550" endTime="84650"></Effect>
+        <Effect label="CINA" startTime="87700" endTime="88350"></Effect>
+        <Effect label="INDIA" startTime="89300" endTime="90250"></Effect>
+        <Effect label="BREATH*" startTime="91650" endTime="91700"></Effect>
+        <Effect label="PUN" startTime="92700" endTime="93200"></Effect>
+        <Effect label="ADA" startTime="93650" endTime="94850"></Effect>
+        <Effect label="BREATH*" startTime="94850" endTime="94900"></Effect>
+        <Effect label="KAYA" startTime="98300" endTime="98950"></Effect>
+        <Effect label="BREATH*" startTime="101000" endTime="101050"></Effect>
+        <Effect label="BREATH*" startTime="104500" endTime="104550"></Effect>
+        <Effect label="DI" startTime="104550" endTime="107550"></Effect>
+        <Effect label="BREATH*" startTime="108200" endTime="108250"></Effect>
+        <Effect label="BREATH*" startTime="108250" endTime="108300"></Effect>
+        <Effect label="SA" startTime="108300" endTime="110250"></Effect>
+        <Effect label="YA" startTime="110300" endTime="111950"></Effect>
+        <Effect label="ANAK" startTime="111950" endTime="112400"></Effect>
+        <Effect label="MALAYSIA" startTime="112400" endTime="113900"></Effect>
+        <Effect label="SAYA" startTime="114200" endTime="115700"></Effect>
+        <Effect label="ANAK" startTime="115850" endTime="116300"></Effect>
+        <Effect label="MALAYSIA" startTime="116300" endTime="117900"></Effect>
+        <Effect label="SAYA" startTime="118100" endTime="119750"></Effect>
+        <Effect label="ANAK" startTime="119750" endTime="120250"></Effect>
+        <Effect label="MALAYSIA" startTime="120250" endTime="121700"></Effect>
+        <Effect label="SAYA" startTime="122100" endTime="123600"></Effect>
+        <Effect label="ANAK" startTime="123750" endTime="124200"></Effect>
+        <Effect label="MALAYSIA" startTime="124200" endTime="125700"></Effect>
+        <Effect label="BREATH*" startTime="126750" endTime="126800"></Effect>
+        <Effect label="BREATH*" startTime="128600" endTime="128650"></Effect>
+        <Effect label="DI" startTime="128650" endTime="128800"></Effect>
+        <Effect label="BREATH*" startTime="128800" endTime="128850"></Effect>
+        <Effect label="ORANG" startTime="128850" endTime="129500"></Effect>
+        <Effect label="BATU" startTime="130800" endTime="131450"></Effect>
+        <Effect label="DI" startTime="132600" endTime="132650"></Effect>
+        <Effect label="BREATH*" startTime="132650" endTime="132800"></Effect>
+        <Effect label="KITA" startTime="132800" endTime="133600"></Effect>
+        <Effect label="BREATH*" startTime="134550" endTime="134600"></Effect>
+        <Effect label="BREATH*" startTime="134600" endTime="134700"></Effect>
+        <Effect label="ORANG" startTime="136500" endTime="137450"></Effect>
+        <Effect label="MALAYSIA" startTime="138650" endTime="139500"></Effect>
+        <Effect label="BREATH*" startTime="139800" endTime="139850"></Effect>
+        <Effect label="BREATH*" startTime="142700" endTime="142750"></Effect>
+        <Effect label="BREATH*" startTime="142750" endTime="142800"></Effect>
+        <Effect label="CINA" startTime="142800" endTime="143400"></Effect>
+        <Effect label="BREATH*" startTime="144100" endTime="144300"></Effect>
+        <Effect label="INDIA" startTime="144350" endTime="145300"></Effect>
+        <Effect label="BREATH*" startTime="145300" endTime="145350"></Effect>
+        <Effect label="PUN" startTime="146050" endTime="146300"></Effect>
+        <Effect label="ADA" startTime="146300" endTime="146500"></Effect>
+        <Effect label="BREATH*" startTime="146700" endTime="146750"></Effect>
+        <Effect label="KAYA" startTime="148250" endTime="148700"></Effect>
+        <Effect label="BREATH*" startTime="148700" endTime="148750"></Effect>
+        <Effect label="DI" startTime="148750" endTime="152300"></Effect>
+        <Effect label="BREATH*" startTime="152700" endTime="152750"></Effect>
+        <Effect label="BREATH*" startTime="152750" endTime="152800"></Effect>
+        <Effect label="BREATH*" startTime="152800" endTime="152850"></Effect>
+        <Effect label="SA" startTime="152850" endTime="153150"></Effect>
+        <Effect label="YA" startTime="153650" endTime="154100"></Effect>
+        <Effect label="ANAK" startTime="154700" endTime="154950"></Effect>
+        <Effect label="MALAYSIA" startTime="154950" endTime="156150"></Effect>
+        <Effect label="SAYA" startTime="158300" endTime="158550"></Effect>
+        <Effect label="ANAK" startTime="159150" endTime="162750"></Effect>
+        <Effect label="MALAYSIA" startTime="163200" endTime="163400"></Effect>
+        <Effect label="SAYA" startTime="163400" endTime="167000"></Effect>
+        <Effect label="ANAK" startTime="167000" endTime="167450"></Effect>
+        <Effect label="MALAYSIA" startTime="167450" endTime="168950"></Effect>
+        <Effect label="SAYA" startTime="169350" endTime="170500"></Effect>
+        <Effect label="ANAK" startTime="170500" endTime="175350"></Effect>
+        <Effect label="MALAYSIA" startTime="175350" endTime="176900"></Effect>
+        <Effect label="SAYA" startTime="177300" endTime="178650"></Effect>
+        <Effect label="ANAK" startTime="178800" endTime="179300"></Effect>
+        <Effect label="MALAYSIA" startTime="179300" endTime="180750"></Effect>
+        <Effect label="SAYA" startTime="181100" endTime="182600"></Effect>
+        <Effect label="ANAK" startTime="182750" endTime="183200"></Effect>
+        <Effect label="MALAYSIA" startTime="183200" endTime="184650"></Effect>
+        <Effect label="SAYA" startTime="185000" endTime="186500"></Effect>
+        <Effect label="ANAK" startTime="186650" endTime="187200"></Effect>
+        <Effect label="MALAYSIA" startTime="187200" endTime="188700"></Effect>
+        <Effect label="SAYA" startTime="189050" endTime="190850"></Effect>
+        <Effect label="ANAK" startTime="190850" endTime="191550"></Effect>
+        <Effect label="MALAYSIA" startTime="191550" endTime="192500"></Effect>
+        <Effect label="SAYA" startTime="192900" endTime="198300"></Effect>
+        <Effect label="ANAK" startTime="198500" endTime="198950"></Effect>
+        <Effect label="MALAYSIA" startTime="198950" endTime="200450"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="MBP" startTime="2200" endTime="2250"></Effect>
+        <Effect label="AI" startTime="2250" endTime="2600"></Effect>
+        <Effect label="L" startTime="2600" endTime="2950"></Effect>
+        <Effect label="E" startTime="2950" endTime="3300"></Effect>
+        <Effect label="etc" startTime="3300" endTime="3350"></Effect>
+        <Effect label="AI" startTime="3350" endTime="3750"></Effect>
+        <Effect label="MBP" startTime="6150" endTime="6200"></Effect>
+        <Effect label="AI" startTime="6200" endTime="6550"></Effect>
+        <Effect label="L" startTime="6550" endTime="6900"></Effect>
+        <Effect label="E" startTime="6900" endTime="7300"></Effect>
+        <Effect label="etc" startTime="7300" endTime="7350"></Effect>
+        <Effect label="AI" startTime="7350" endTime="7700"></Effect>
+        <Effect label="MBP" startTime="10100" endTime="10150"></Effect>
+        <Effect label="AI" startTime="10150" endTime="10500"></Effect>
+        <Effect label="L" startTime="10500" endTime="10800"></Effect>
+        <Effect label="E" startTime="10800" endTime="11150"></Effect>
+        <Effect label="etc" startTime="11150" endTime="11200"></Effect>
+        <Effect label="AI" startTime="11200" endTime="11550"></Effect>
+        <Effect label="MBP" startTime="14000" endTime="14050"></Effect>
+        <Effect label="AI" startTime="14050" endTime="14400"></Effect>
+        <Effect label="L" startTime="14400" endTime="14800"></Effect>
+        <Effect label="E" startTime="14800" endTime="15150"></Effect>
+        <Effect label="etc" startTime="15150" endTime="15200"></Effect>
+        <Effect label="AI" startTime="15200" endTime="15550"></Effect>
+        <Effect label="etc" startTime="16000" endTime="16050"></Effect>
+        <Effect label="etc" startTime="16050" endTime="16100"></Effect>
+        <Effect label="etc" startTime="19900" endTime="19950"></Effect>
+        <Effect label="etc" startTime="19950" endTime="20000"></Effect>
+        <Effect label="etc" startTime="24450" endTime="24500"></Effect>
+        <Effect label="etc" startTime="24500" endTime="24550"></Effect>
+        <Effect label="L" startTime="25550" endTime="25700"></Effect>
+        <Effect label="AI" startTime="25700" endTime="25850"></Effect>
+        <Effect label="MBP" startTime="25850" endTime="25900"></Effect>
+        <Effect label="AI" startTime="25900" endTime="26050"></Effect>
+        <Effect label="etc" startTime="29200" endTime="29250"></Effect>
+        <Effect label="etc" startTime="29250" endTime="29300"></Effect>
+        <Effect label="E" startTime="29300" endTime="29400"></Effect>
+        <Effect label="etc" startTime="29400" endTime="29450"></Effect>
+        <Effect label="AI" startTime="29450" endTime="29600"></Effect>
+        <Effect label="etc" startTime="29600" endTime="29650"></Effect>
+        <Effect label="etc" startTime="29650" endTime="29700"></Effect>
+        <Effect label="etc" startTime="30150" endTime="30200"></Effect>
+        <Effect label="O" startTime="33950" endTime="34150"></Effect>
+        <Effect label="etc" startTime="34150" endTime="34200"></Effect>
+        <Effect label="AI" startTime="34200" endTime="34350"></Effect>
+        <Effect label="etc" startTime="34350" endTime="34400"></Effect>
+        <Effect label="etc" startTime="36950" endTime="37000"></Effect>
+        <Effect label="etc" startTime="37050" endTime="37100"></Effect>
+        <Effect label="etc" startTime="37100" endTime="37150"></Effect>
+        <Effect label="AI" startTime="37150" endTime="37400"></Effect>
+        <Effect label="etc" startTime="37400" endTime="37450"></Effect>
+        <Effect label="etc" startTime="37700" endTime="37750"></Effect>
+        <Effect label="etc" startTime="37750" endTime="37800"></Effect>
+        <Effect label="etc" startTime="37800" endTime="37850"></Effect>
+        <Effect label="etc" startTime="37850" endTime="37900"></Effect>
+        <Effect label="etc" startTime="38000" endTime="38050"></Effect>
+        <Effect label="etc" startTime="38050" endTime="38100"></Effect>
+        <Effect label="etc" startTime="48250" endTime="48300"></Effect>
+        <Effect label="etc" startTime="48300" endTime="48350"></Effect>
+        <Effect label="etc" startTime="53300" endTime="53350"></Effect>
+        <Effect label="AI" startTime="53350" endTime="53750"></Effect>
+        <Effect label="etc" startTime="53750" endTime="53800"></Effect>
+        <Effect label="etc" startTime="55950" endTime="56000"></Effect>
+        <Effect label="etc" startTime="60350" endTime="60400"></Effect>
+        <Effect label="etc" startTime="60400" endTime="60450"></Effect>
+        <Effect label="etc" startTime="60450" endTime="60500"></Effect>
+        <Effect label="etc" startTime="60500" endTime="60550"></Effect>
+        <Effect label="MBP" startTime="65150" endTime="65200"></Effect>
+        <Effect label="AI" startTime="65200" endTime="65550"></Effect>
+        <Effect label="L" startTime="65550" endTime="65900"></Effect>
+        <Effect label="E" startTime="65900" endTime="66250"></Effect>
+        <Effect label="etc" startTime="66250" endTime="66300"></Effect>
+        <Effect label="AI" startTime="66300" endTime="66650"></Effect>
+        <Effect label="MBP" startTime="69100" endTime="69150"></Effect>
+        <Effect label="AI" startTime="69150" endTime="69500"></Effect>
+        <Effect label="L" startTime="69500" endTime="69850"></Effect>
+        <Effect label="E" startTime="69850" endTime="70200"></Effect>
+        <Effect label="etc" startTime="70200" endTime="70250"></Effect>
+        <Effect label="AI" startTime="70250" endTime="70600"></Effect>
+        <Effect label="MBP" startTime="73050" endTime="73100"></Effect>
+        <Effect label="AI" startTime="73100" endTime="73450"></Effect>
+        <Effect label="L" startTime="73450" endTime="73750"></Effect>
+        <Effect label="E" startTime="73750" endTime="74100"></Effect>
+        <Effect label="etc" startTime="74100" endTime="74150"></Effect>
+        <Effect label="AI" startTime="74150" endTime="74450"></Effect>
+        <Effect label="MBP" startTime="77000" endTime="77050"></Effect>
+        <Effect label="AI" startTime="77050" endTime="77350"></Effect>
+        <Effect label="L" startTime="77350" endTime="77700"></Effect>
+        <Effect label="E" startTime="77700" endTime="78050"></Effect>
+        <Effect label="etc" startTime="78050" endTime="78100"></Effect>
+        <Effect label="AI" startTime="78100" endTime="78450"></Effect>
+        <Effect label="etc" startTime="78950" endTime="79000"></Effect>
+        <Effect label="etc" startTime="79000" endTime="79050"></Effect>
+        <Effect label="etc" startTime="79050" endTime="79100"></Effect>
+        <Effect label="etc" startTime="84500" endTime="84550"></Effect>
+        <Effect label="etc" startTime="84550" endTime="84600"></Effect>
+        <Effect label="etc" startTime="87700" endTime="87750"></Effect>
+        <Effect label="E" startTime="87750" endTime="88050"></Effect>
+        <Effect label="etc" startTime="88050" endTime="88100"></Effect>
+        <Effect label="AI" startTime="88100" endTime="88350"></Effect>
+        <Effect label="AI" startTime="89300" endTime="89550"></Effect>
+        <Effect label="etc" startTime="89550" endTime="89600"></Effect>
+        <Effect label="etc" startTime="89600" endTime="89650"></Effect>
+        <Effect label="E" startTime="89650" endTime="89950"></Effect>
+        <Effect label="AI" startTime="89950" endTime="90250"></Effect>
+        <Effect label="etc" startTime="91650" endTime="91700"></Effect>
+        <Effect label="MBP" startTime="92700" endTime="92750"></Effect>
+        <Effect label="AI" startTime="92750" endTime="93150"></Effect>
+        <Effect label="etc" startTime="93150" endTime="93200"></Effect>
+        <Effect label="E" startTime="93650" endTime="94200"></Effect>
+        <Effect label="etc" startTime="94200" endTime="94250"></Effect>
+        <Effect label="AI" startTime="94250" endTime="94850"></Effect>
+        <Effect label="etc" startTime="94850" endTime="94900"></Effect>
+        <Effect label="etc" startTime="98300" endTime="98350"></Effect>
+        <Effect label="AI" startTime="98350" endTime="98650"></Effect>
+        <Effect label="etc" startTime="98650" endTime="98700"></Effect>
+        <Effect label="AI" startTime="98700" endTime="98950"></Effect>
+        <Effect label="etc" startTime="101000" endTime="101050"></Effect>
+        <Effect label="etc" startTime="104500" endTime="104550"></Effect>
+        <Effect label="etc" startTime="104550" endTime="104600"></Effect>
+        <Effect label="E" startTime="104600" endTime="107550"></Effect>
+        <Effect label="etc" startTime="108200" endTime="108250"></Effect>
+        <Effect label="etc" startTime="108250" endTime="108300"></Effect>
+        <Effect label="etc" startTime="108300" endTime="108350"></Effect>
+        <Effect label="AI" startTime="108350" endTime="110250"></Effect>
+        <Effect label="etc" startTime="110300" endTime="110350"></Effect>
+        <Effect label="AI" startTime="110350" endTime="111950"></Effect>
+        <Effect label="MBP" startTime="112400" endTime="112450"></Effect>
+        <Effect label="AI" startTime="112450" endTime="112800"></Effect>
+        <Effect label="L" startTime="112800" endTime="113150"></Effect>
+        <Effect label="E" startTime="113150" endTime="113500"></Effect>
+        <Effect label="etc" startTime="113500" endTime="113550"></Effect>
+        <Effect label="AI" startTime="113550" endTime="113900"></Effect>
+        <Effect label="MBP" startTime="116300" endTime="116350"></Effect>
+        <Effect label="AI" startTime="116350" endTime="116750"></Effect>
+        <Effect label="L" startTime="116750" endTime="117100"></Effect>
+        <Effect label="E" startTime="117100" endTime="117450"></Effect>
+        <Effect label="etc" startTime="117450" endTime="117500"></Effect>
+        <Effect label="AI" startTime="117500" endTime="117900"></Effect>
+        <Effect label="MBP" startTime="120250" endTime="120300"></Effect>
+        <Effect label="AI" startTime="120300" endTime="120650"></Effect>
+        <Effect label="L" startTime="120650" endTime="121000"></Effect>
+        <Effect label="E" startTime="121000" endTime="121300"></Effect>
+        <Effect label="etc" startTime="121300" endTime="121350"></Effect>
+        <Effect label="AI" startTime="121350" endTime="121700"></Effect>
+        <Effect label="MBP" startTime="124200" endTime="124250"></Effect>
+        <Effect label="AI" startTime="124250" endTime="124600"></Effect>
+        <Effect label="L" startTime="124600" endTime="124950"></Effect>
+        <Effect label="E" startTime="124950" endTime="125300"></Effect>
+        <Effect label="etc" startTime="125300" endTime="125350"></Effect>
+        <Effect label="AI" startTime="125350" endTime="125700"></Effect>
+        <Effect label="etc" startTime="126750" endTime="126800"></Effect>
+        <Effect label="etc" startTime="128600" endTime="128650"></Effect>
+        <Effect label="etc" startTime="128650" endTime="128700"></Effect>
+        <Effect label="E" startTime="128700" endTime="128800"></Effect>
+        <Effect label="etc" startTime="128800" endTime="128850"></Effect>
+        <Effect label="O" startTime="128850" endTime="129100"></Effect>
+        <Effect label="etc" startTime="129100" endTime="129150"></Effect>
+        <Effect label="AI" startTime="129150" endTime="129450"></Effect>
+        <Effect label="etc" startTime="129450" endTime="129500"></Effect>
+        <Effect label="etc" startTime="132600" endTime="132650"></Effect>
+        <Effect label="etc" startTime="132650" endTime="132700"></Effect>
+        <Effect label="etc" startTime="132800" endTime="132850"></Effect>
+        <Effect label="E" startTime="132850" endTime="133200"></Effect>
+        <Effect label="etc" startTime="133200" endTime="133250"></Effect>
+        <Effect label="AI" startTime="133250" endTime="133600"></Effect>
+        <Effect label="etc" startTime="134550" endTime="134600"></Effect>
+        <Effect label="etc" startTime="134600" endTime="134650"></Effect>
+        <Effect label="O" startTime="136500" endTime="136900"></Effect>
+        <Effect label="etc" startTime="136900" endTime="136950"></Effect>
+        <Effect label="AI" startTime="136950" endTime="137400"></Effect>
+        <Effect label="etc" startTime="137400" endTime="137450"></Effect>
+        <Effect label="MBP" startTime="138650" endTime="138700"></Effect>
+        <Effect label="AI" startTime="138700" endTime="138900"></Effect>
+        <Effect label="L" startTime="138900" endTime="139050"></Effect>
+        <Effect label="E" startTime="139050" endTime="139250"></Effect>
+        <Effect label="etc" startTime="139250" endTime="139300"></Effect>
+        <Effect label="AI" startTime="139300" endTime="139500"></Effect>
+        <Effect label="etc" startTime="139800" endTime="139850"></Effect>
+        <Effect label="etc" startTime="142700" endTime="142750"></Effect>
+        <Effect label="etc" startTime="142750" endTime="142800"></Effect>
+        <Effect label="etc" startTime="142800" endTime="142850"></Effect>
+        <Effect label="E" startTime="142850" endTime="143100"></Effect>
+        <Effect label="etc" startTime="143100" endTime="143150"></Effect>
+        <Effect label="AI" startTime="143150" endTime="143400"></Effect>
+        <Effect label="etc" startTime="144100" endTime="144150"></Effect>
+        <Effect label="AI" startTime="144350" endTime="144600"></Effect>
+        <Effect label="etc" startTime="144600" endTime="144650"></Effect>
+        <Effect label="etc" startTime="144650" endTime="144700"></Effect>
+        <Effect label="E" startTime="144700" endTime="145000"></Effect>
+        <Effect label="AI" startTime="145000" endTime="145300"></Effect>
+        <Effect label="etc" startTime="145300" endTime="145350"></Effect>
+        <Effect label="MBP" startTime="146050" endTime="146100"></Effect>
+        <Effect label="AI" startTime="146100" endTime="146250"></Effect>
+        <Effect label="etc" startTime="146250" endTime="146300"></Effect>
+        <Effect label="E" startTime="146300" endTime="146400"></Effect>
+        <Effect label="etc" startTime="146400" endTime="146450"></Effect>
+        <Effect label="AI" startTime="146450" endTime="146500"></Effect>
+        <Effect label="etc" startTime="146700" endTime="146750"></Effect>
+        <Effect label="etc" startTime="148250" endTime="148300"></Effect>
+        <Effect label="AI" startTime="148300" endTime="148500"></Effect>
+        <Effect label="etc" startTime="148500" endTime="148550"></Effect>
+        <Effect label="AI" startTime="148550" endTime="148700"></Effect>
+        <Effect label="etc" startTime="148700" endTime="148750"></Effect>
+        <Effect label="etc" startTime="148750" endTime="148800"></Effect>
+        <Effect label="E" startTime="148800" endTime="152300"></Effect>
+        <Effect label="etc" startTime="152700" endTime="152750"></Effect>
+        <Effect label="etc" startTime="152750" endTime="152800"></Effect>
+        <Effect label="etc" startTime="152800" endTime="152850"></Effect>
+        <Effect label="etc" startTime="152850" endTime="152900"></Effect>
+        <Effect label="AI" startTime="152900" endTime="153150"></Effect>
+        <Effect label="etc" startTime="153650" endTime="153700"></Effect>
+        <Effect label="AI" startTime="153700" endTime="154100"></Effect>
+        <Effect label="MBP" startTime="154950" endTime="155000"></Effect>
+        <Effect label="AI" startTime="155000" endTime="155250"></Effect>
+        <Effect label="L" startTime="155250" endTime="155550"></Effect>
+        <Effect label="E" startTime="155550" endTime="155800"></Effect>
+        <Effect label="etc" startTime="155800" endTime="155850"></Effect>
+        <Effect label="AI" startTime="155850" endTime="156150"></Effect>
+        <Effect label="MBP" startTime="163200" endTime="163250"></Effect>
+        <Effect label="AI" startTime="163250" endTime="163300"></Effect>
+        <Effect label="etc" startTime="163300" endTime="163350"></Effect>
+        <Effect label="AI" startTime="163350" endTime="163400"></Effect>
+        <Effect label="MBP" startTime="167450" endTime="167500"></Effect>
+        <Effect label="AI" startTime="167500" endTime="167850"></Effect>
+        <Effect label="L" startTime="167850" endTime="168200"></Effect>
+        <Effect label="E" startTime="168200" endTime="168550"></Effect>
+        <Effect label="etc" startTime="168550" endTime="168600"></Effect>
+        <Effect label="AI" startTime="168600" endTime="168950"></Effect>
+        <Effect label="MBP" startTime="175350" endTime="175400"></Effect>
+        <Effect label="AI" startTime="175400" endTime="175750"></Effect>
+        <Effect label="L" startTime="175750" endTime="176100"></Effect>
+        <Effect label="E" startTime="176100" endTime="176500"></Effect>
+        <Effect label="etc" startTime="176500" endTime="176550"></Effect>
+        <Effect label="AI" startTime="176550" endTime="176900"></Effect>
+        <Effect label="MBP" startTime="179300" endTime="179350"></Effect>
+        <Effect label="AI" startTime="179350" endTime="179650"></Effect>
+        <Effect label="L" startTime="179650" endTime="180000"></Effect>
+        <Effect label="E" startTime="180000" endTime="180350"></Effect>
+        <Effect label="etc" startTime="180350" endTime="180400"></Effect>
+        <Effect label="AI" startTime="180400" endTime="180750"></Effect>
+        <Effect label="MBP" startTime="183200" endTime="183250"></Effect>
+        <Effect label="AI" startTime="183250" endTime="183600"></Effect>
+        <Effect label="L" startTime="183600" endTime="183900"></Effect>
+        <Effect label="E" startTime="183900" endTime="184250"></Effect>
+        <Effect label="etc" startTime="184250" endTime="184300"></Effect>
+        <Effect label="AI" startTime="184300" endTime="184650"></Effect>
+        <Effect label="MBP" startTime="187200" endTime="187250"></Effect>
+        <Effect label="AI" startTime="187250" endTime="187600"></Effect>
+        <Effect label="L" startTime="187600" endTime="187950"></Effect>
+        <Effect label="E" startTime="187950" endTime="188300"></Effect>
+        <Effect label="etc" startTime="188300" endTime="188350"></Effect>
+        <Effect label="AI" startTime="188350" endTime="188700"></Effect>
+        <Effect label="MBP" startTime="191550" endTime="191600"></Effect>
+        <Effect label="AI" startTime="191600" endTime="191800"></Effect>
+        <Effect label="L" startTime="191800" endTime="192000"></Effect>
+        <Effect label="E" startTime="192000" endTime="192250"></Effect>
+        <Effect label="etc" startTime="192250" endTime="192300"></Effect>
+        <Effect label="AI" startTime="192300" endTime="192500"></Effect>
+        <Effect label="MBP" startTime="198950" endTime="199000"></Effect>
+        <Effect label="AI" startTime="199000" endTime="199350"></Effect>
+        <Effect label="L" startTime="199350" endTime="199700"></Effect>
+        <Effect label="E" startTime="199700" endTime="200050"></Effect>
+        <Effect label="etc" startTime="200050" endTime="200100"></Effect>
+        <Effect label="AI" startTime="200100" endTime="200450"></Effect>
+      </EffectLayer>
+    </Element>
     <Element type="model" name="GRP Aux Park">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1300" palette="0"/>
@@ -6645,7 +7049,7 @@
     </Element>
     <Element type="model" name="GRP Channel 6">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1300" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="1800" endTime="2500" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
@@ -6841,7 +7245,7 @@
     </Element>
     <Element type="model" name="GRP Tail Lights">
       <EffectLayer>
-        <Effect ref="0" name="On" selected="1" startTime="0" endTime="1350" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1300" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="2000" endTime="2700" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
@@ -6897,7 +7301,7 @@
     </Element>
     <Element type="model" name="License Plate">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1300" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="2300" endTime="3000" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
@@ -6912,7 +7316,7 @@
     </Element>
     <Element type="model" name="Rear Fog Lights">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="1100" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1300" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="2200" endTime="2900" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
@@ -6934,7 +7338,7 @@
     </Element>
     <Element type="model" name="Reverse Lights">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="0" endTime="1150" palette="0"/>
+        <Effect ref="0" name="On" startTime="0" endTime="1300" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="2100" endTime="2800" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="4050" endTime="5050" palette="0"/>
