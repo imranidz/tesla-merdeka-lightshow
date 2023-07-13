@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.10</version>
+    <version>2023.08</version>
     <author>Darryl Foong, Imran Idzqandar</author>
     <author-email></author-email>
     <author-website></author-website>
@@ -29,17 +29,18 @@
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="Lyrics" visible="1" views="Master View,Group View,Old View" active="1"/>
-    <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="timing" name="Lyrics" visible="1" views="Master View,Group View,Old View" active="0"/>
+    <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Beat Spectral Difference" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Tonic Pitch" visible="1" views="" active="0"/>
     <Element collapsed="0" type="timing" name="Polyphonic Transcription" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Bars_2" visible="1" views="Group View" active="1"/>
+    <Element collapsed="0" type="timing" name="Bars_2" visible="1" views="Group View" active="0"/>
     <Element collapsed="0" type="timing" name="Beats_2" visible="1" views="Group View" active="1"/>
     <Element collapsed="0" type="timing" name="Smoothed Detection Function" visible="1" views="Group View" active="0"/>
-    <Element collapsed="0" type="timing" name="Tonic Pitch_2" visible="1" views="Group View" active="1"/>
-    <Element collapsed="0" type="timing" name="Words" visible="1" views="Group View" active="1"/>
+    <Element collapsed="0" type="timing" name="Tonic Pitch_2" visible="1" views="Group View" active="0"/>
+    <Element collapsed="0" type="timing" name="Words" visible="1" views="Group View" active="0"/>
+    <Element collapsed="0" type="timing" name="Polyphonic Transcription_2" visible="1" views="Group View" active="0"/>
     <Element collapsed="0" type="model" name="GRP Aux Park" visible="1"/>
     <Element collapsed="0" type="model" name="GRP Channel 4" visible="1"/>
     <Element collapsed="0" type="model" name="GRP Channel 5" visible="1"/>
@@ -6818,6 +6819,645 @@
     <Element type="timing" name="Words">
       <EffectLayer/>
     </Element>
+    <Element type="timing" name="Polyphonic Transcription_2">
+      <EffectLayer>
+        <Effect label="G4" startTime="300" endTime="950"></Effect>
+        <Effect label="D5" startTime="950" endTime="1300"></Effect>
+        <Effect label="B5" startTime="1300" endTime="1750"></Effect>
+        <Effect label="G4" startTime="1800" endTime="2050"></Effect>
+        <Effect label="B4" startTime="2050" endTime="2250"></Effect>
+        <Effect label="A4" startTime="2300" endTime="2800"></Effect>
+        <Effect label="E5" startTime="2800" endTime="2950"></Effect>
+        <Effect label="D4" startTime="3000" endTime="3250"></Effect>
+        <Effect label="B4" startTime="3250" endTime="4050"></Effect>
+        <Effect label="D5" startTime="4050" endTime="4150"></Effect>
+        <Effect label="B4" startTime="4200" endTime="5250"></Effect>
+        <Effect label="D5" startTime="5250" endTime="5750"></Effect>
+        <Effect label="G4" startTime="5750" endTime="6000"></Effect>
+        <Effect label="B4" startTime="6000" endTime="6200"></Effect>
+        <Effect label="A4" startTime="6250" endTime="6700"></Effect>
+        <Effect label="E4" startTime="6700" endTime="7150"></Effect>
+        <Effect label="B5" startTime="7200" endTime="8000"></Effect>
+        <Effect label="G4" startTime="8050" endTime="8200"></Effect>
+        <Effect label="D5" startTime="8200" endTime="8950"></Effect>
+        <Effect label="G4" startTime="8950" endTime="9150"></Effect>
+        <Effect label="F#5" startTime="9150" endTime="9650"></Effect>
+        <Effect label="G4" startTime="9650" endTime="9850"></Effect>
+        <Effect label="D5" startTime="9900" endTime="10100"></Effect>
+        <Effect label="A4" startTime="10150" endTime="10600"></Effect>
+        <Effect label="E4" startTime="10650" endTime="11100"></Effect>
+        <Effect label="A5" startTime="11150" endTime="11400"></Effect>
+        <Effect label="B4" startTime="11400" endTime="11650"></Effect>
+        <Effect label="D3" startTime="11650" endTime="11900"></Effect>
+        <Effect label="D5" startTime="11950" endTime="12050"></Effect>
+        <Effect label="B5" startTime="12100" endTime="12900"></Effect>
+        <Effect label="G4" startTime="13000" endTime="13100"></Effect>
+        <Effect label="B4" startTime="13100" endTime="13600"></Effect>
+        <Effect label="B3" startTime="13600" endTime="13850"></Effect>
+        <Effect label="D5" startTime="13850" endTime="14050"></Effect>
+        <Effect label="A3" startTime="14100" endTime="14600"></Effect>
+        <Effect label="A4" startTime="14600" endTime="14800"></Effect>
+        <Effect label="G3" startTime="14850" endTime="15050"></Effect>
+        <Effect label="G4" startTime="15100" endTime="15550"></Effect>
+        <Effect label="G2" startTime="15550" endTime="15750"></Effect>
+        <Effect label="G4" startTime="15800" endTime="16050"></Effect>
+        <Effect label="D5" startTime="16050" endTime="16500"></Effect>
+        <Effect label="G4" startTime="16550" endTime="16800"></Effect>
+        <Effect label="D5" startTime="16800" endTime="17000"></Effect>
+        <Effect label="D5" startTime="17050" endTime="17300"></Effect>
+        <Effect label="G4" startTime="17300" endTime="17550"></Effect>
+        <Effect label="B4" startTime="17550" endTime="17800"></Effect>
+        <Effect label="D5" startTime="17800" endTime="18100"></Effect>
+        <Effect label="A5" startTime="18150" endTime="18400"></Effect>
+        <Effect label="G4" startTime="18400" endTime="18450"></Effect>
+        <Effect label="A5" startTime="18500" endTime="18800"></Effect>
+        <Effect label="B4" startTime="18800" endTime="19000"></Effect>
+        <Effect label="D6" startTime="19000" endTime="19200"></Effect>
+        <Effect label="D5" startTime="19250" endTime="19450"></Effect>
+        <Effect label="G4" startTime="19750" endTime="19850"></Effect>
+        <Effect label="E6" startTime="20000" endTime="20700"></Effect>
+        <Effect label="G4" startTime="20750" endTime="20950"></Effect>
+        <Effect label="D5" startTime="20950" endTime="21250"></Effect>
+        <Effect label="G4" startTime="21250" endTime="21450"></Effect>
+        <Effect label="D5" startTime="21450" endTime="21750"></Effect>
+        <Effect label="G4" startTime="21750" endTime="21900"></Effect>
+        <Effect label="F#4" startTime="21950" endTime="22450"></Effect>
+        <Effect label="A3" startTime="22450" endTime="22750"></Effect>
+        <Effect label="G4" startTime="22800" endTime="22950"></Effect>
+        <Effect label="D5" startTime="22950" endTime="23400"></Effect>
+        <Effect label="D5" startTime="23950" endTime="24150"></Effect>
+        <Effect label="D4" startTime="24200" endTime="24350"></Effect>
+        <Effect label="D4" startTime="24400" endTime="24650"></Effect>
+        <Effect label="G3" startTime="24650" endTime="24850"></Effect>
+        <Effect label="D5" startTime="24900" endTime="25200"></Effect>
+        <Effect label="G2" startTime="25200" endTime="25350"></Effect>
+        <Effect label="G4" startTime="25400" endTime="25600"></Effect>
+        <Effect label="D4" startTime="25600" endTime="25650"></Effect>
+        <Effect label="B4" startTime="25700" endTime="25850"></Effect>
+        <Effect label="E4" startTime="26150" endTime="26250"></Effect>
+        <Effect label="E4" startTime="26300" endTime="26550"></Effect>
+        <Effect label="E4" startTime="26600" endTime="26850"></Effect>
+        <Effect label="D5" startTime="26950" endTime="27150"></Effect>
+        <Effect label="D4" startTime="27150" endTime="27400"></Effect>
+        <Effect label="G4" startTime="27400" endTime="27600"></Effect>
+        <Effect label="G2" startTime="27600" endTime="27800"></Effect>
+        <Effect label="G4" startTime="27850" endTime="28100"></Effect>
+        <Effect label="E4" startTime="28100" endTime="28550"></Effect>
+        <Effect label="D4" startTime="28600" endTime="28850"></Effect>
+        <Effect label="A5" startTime="28850" endTime="29100"></Effect>
+        <Effect label="G3" startTime="29100" endTime="29350"></Effect>
+        <Effect label="G4" startTime="29350" endTime="29600"></Effect>
+        <Effect label="G3" startTime="29600" endTime="29650"></Effect>
+        <Effect label="G3" startTime="29700" endTime="29800"></Effect>
+        <Effect label="F#4" startTime="29850" endTime="30200"></Effect>
+        <Effect label="A3" startTime="30200" endTime="30250"></Effect>
+        <Effect label="A4" startTime="30300" endTime="30600"></Effect>
+        <Effect label="F#4" startTime="30600" endTime="30750"></Effect>
+        <Effect label="F#5" startTime="30800" endTime="31000"></Effect>
+        <Effect label="F#5" startTime="31050" endTime="31300"></Effect>
+        <Effect label="G2" startTime="31300" endTime="31500"></Effect>
+        <Effect label="G3" startTime="31800" endTime="32000"></Effect>
+        <Effect label="G4" startTime="32050" endTime="32200"></Effect>
+        <Effect label="D4" startTime="32200" endTime="32500"></Effect>
+        <Effect label="D4" startTime="32550" endTime="32750"></Effect>
+        <Effect label="D4" startTime="32800" endTime="33050"></Effect>
+        <Effect label="D5" startTime="33050" endTime="33300"></Effect>
+        <Effect label="G2" startTime="33300" endTime="33550"></Effect>
+        <Effect label="G4" startTime="33550" endTime="33750"></Effect>
+        <Effect label="G2" startTime="33750" endTime="33950"></Effect>
+        <Effect label="F5" startTime="34000" endTime="34100"></Effect>
+        <Effect label="E5" startTime="34150" endTime="34250"></Effect>
+        <Effect label="G4" startTime="34250" endTime="34500"></Effect>
+        <Effect label="D5" startTime="34500" endTime="34750"></Effect>
+        <Effect label="D4" startTime="34750" endTime="35000"></Effect>
+        <Effect label="G4" startTime="35000" endTime="35050"></Effect>
+        <Effect label="G4" startTime="35100" endTime="35250"></Effect>
+        <Effect label="B4" startTime="35250" endTime="35500"></Effect>
+        <Effect label="G2" startTime="35500" endTime="35550"></Effect>
+        <Effect label="G4" startTime="35750" endTime="35900"></Effect>
+        <Effect label="E4" startTime="35900" endTime="36000"></Effect>
+        <Effect label="C3" startTime="36000" endTime="36050"></Effect>
+        <Effect label="G4" startTime="36450" endTime="36750"></Effect>
+        <Effect label="D4" startTime="36750" endTime="37000"></Effect>
+        <Effect label="B4" startTime="37000" endTime="37200"></Effect>
+        <Effect label="G4" startTime="37200" endTime="37450"></Effect>
+        <Effect label="B4" startTime="37450" endTime="37650"></Effect>
+        <Effect label="G3" startTime="37700" endTime="37850"></Effect>
+        <Effect label="A2" startTime="37900" endTime="38100"></Effect>
+        <Effect label="A3" startTime="38100" endTime="38150"></Effect>
+        <Effect label="F#4" startTime="38200" endTime="38450"></Effect>
+        <Effect label="F#3" startTime="38450" endTime="38650"></Effect>
+        <Effect label="G4" startTime="38700" endTime="39200"></Effect>
+        <Effect label="D5" startTime="39200" endTime="39350"></Effect>
+        <Effect label="G2" startTime="39850" endTime="39950"></Effect>
+        <Effect label="G1" startTime="39950" endTime="40150"></Effect>
+        <Effect label="D5" startTime="40150" endTime="40600"></Effect>
+        <Effect label="G4" startTime="40650" endTime="41100"></Effect>
+        <Effect label="B4" startTime="41150" endTime="41350"></Effect>
+        <Effect label="D4" startTime="41400" endTime="41800"></Effect>
+        <Effect label="G2" startTime="42000" endTime="42100"></Effect>
+        <Effect label="C1" startTime="42100" endTime="42400"></Effect>
+        <Effect label="G2" startTime="42400" endTime="42650"></Effect>
+        <Effect label="D5" startTime="42650" endTime="42800"></Effect>
+        <Effect label="G1" startTime="42850" endTime="43550"></Effect>
+        <Effect label="G1" startTime="43600" endTime="43800"></Effect>
+        <Effect label="C1" startTime="43850" endTime="44600"></Effect>
+        <Effect label="D5" startTime="44600" endTime="44800"></Effect>
+        <Effect label="G1" startTime="44850" endTime="45050"></Effect>
+        <Effect label="D5" startTime="45050" endTime="45200"></Effect>
+        <Effect label="G4" startTime="45250" endTime="45500"></Effect>
+        <Effect label="D2" startTime="45550" endTime="45950"></Effect>
+        <Effect label="D1" startTime="45950" endTime="46050"></Effect>
+        <Effect label="F#5" startTime="46050" endTime="46250"></Effect>
+        <Effect label="G2" startTime="46300" endTime="46550"></Effect>
+        <Effect label="G4" startTime="46550" endTime="46800"></Effect>
+        <Effect label="G1" startTime="46800" endTime="47250"></Effect>
+        <Effect label="G2" startTime="47300" endTime="47350"></Effect>
+        <Effect label="A#2" startTime="47650" endTime="47750"></Effect>
+        <Effect label="G1" startTime="47800" endTime="48000"></Effect>
+        <Effect label="D5" startTime="48000" endTime="48300"></Effect>
+        <Effect label="G4" startTime="48300" endTime="48950"></Effect>
+        <Effect label="B4" startTime="49000" endTime="49450"></Effect>
+        <Effect label="E4" startTime="49650" endTime="49750"></Effect>
+        <Effect label="G1" startTime="49750" endTime="50250"></Effect>
+        <Effect label="D4" startTime="50250" endTime="50700"></Effect>
+        <Effect label="G4" startTime="51500" endTime="51650"></Effect>
+        <Effect label="G1" startTime="51700" endTime="51950"></Effect>
+        <Effect label="E4" startTime="51950" endTime="52150"></Effect>
+        <Effect label="G4" startTime="52450" endTime="52700"></Effect>
+        <Effect label="D4" startTime="52700" endTime="52900"></Effect>
+        <Effect label="G4" startTime="52950" endTime="53350"></Effect>
+        <Effect label="G#3" startTime="53400" endTime="53650"></Effect>
+        <Effect label="D1" startTime="53700" endTime="54200"></Effect>
+        <Effect label="F#4" startTime="54200" endTime="54400"></Effect>
+        <Effect label="G4" startTime="54450" endTime="54650"></Effect>
+        <Effect label="G1" startTime="54650" endTime="55100"></Effect>
+        <Effect label="G1" startTime="55150" endTime="55350"></Effect>
+        <Effect label="D3" startTime="55400" endTime="55800"></Effect>
+        <Effect label="G1" startTime="55800" endTime="55900"></Effect>
+        <Effect label="D4" startTime="55900" endTime="56100"></Effect>
+        <Effect label="D4" startTime="56150" endTime="56650"></Effect>
+        <Effect label="G1" startTime="56650" endTime="57050"></Effect>
+        <Effect label="G1" startTime="57100" endTime="57300"></Effect>
+        <Effect label="E4" startTime="57350" endTime="57550"></Effect>
+        <Effect label="A4" startTime="57600" endTime="57800"></Effect>
+        <Effect label="G4" startTime="57850" endTime="58350"></Effect>
+        <Effect label="B4" startTime="58350" endTime="59050"></Effect>
+        <Effect label="D4" startTime="59350" endTime="59550"></Effect>
+        <Effect label="E5" startTime="59600" endTime="59800"></Effect>
+        <Effect label="E5" startTime="59850" endTime="60050"></Effect>
+        <Effect label="G4" startTime="60100" endTime="60350"></Effect>
+        <Effect label="G1" startTime="60350" endTime="60800"></Effect>
+        <Effect label="G4" startTime="60800" endTime="61250"></Effect>
+        <Effect label="D2" startTime="61300" endTime="61700"></Effect>
+        <Effect label="D1" startTime="61700" endTime="61800"></Effect>
+        <Effect label="A3" startTime="61800" endTime="62000"></Effect>
+        <Effect label="G3" startTime="62050" endTime="62300"></Effect>
+        <Effect label="G1" startTime="62300" endTime="62800"></Effect>
+        <Effect label="G4" startTime="62800" endTime="63100"></Effect>
+        <Effect label="B4" startTime="63250" endTime="63750"></Effect>
+        <Effect label="D5" startTime="63750" endTime="64000"></Effect>
+        <Effect label="G4" startTime="64000" endTime="64700"></Effect>
+        <Effect label="G4" startTime="64750" endTime="65000"></Effect>
+        <Effect label="B3" startTime="65000" endTime="65200"></Effect>
+        <Effect label="A4" startTime="65350" endTime="65700"></Effect>
+        <Effect label="E4" startTime="65700" endTime="65900"></Effect>
+        <Effect label="C5" startTime="65950" endTime="66000"></Effect>
+        <Effect label="A5" startTime="66250" endTime="66750"></Effect>
+        <Effect label="D3" startTime="66800" endTime="66950"></Effect>
+        <Effect label="C3" startTime="67000" endTime="67150"></Effect>
+        <Effect label="A5" startTime="67350" endTime="67650"></Effect>
+        <Effect label="B5" startTime="67650" endTime="67900"></Effect>
+        <Effect label="D5" startTime="68000" endTime="68200"></Effect>
+        <Effect label="B4" startTime="68200" endTime="68950"></Effect>
+        <Effect label="G2" startTime="68950" endTime="69150"></Effect>
+        <Effect label="A3" startTime="69200" endTime="69350"></Effect>
+        <Effect label="C3" startTime="69350" endTime="69600"></Effect>
+        <Effect label="A3" startTime="69600" endTime="69650"></Effect>
+        <Effect label="F#5" startTime="69650" endTime="69800"></Effect>
+        <Effect label="F#4" startTime="69900" endTime="70100"></Effect>
+        <Effect label="G3" startTime="70150" endTime="70650"></Effect>
+        <Effect label="D4" startTime="70650" endTime="70950"></Effect>
+        <Effect label="G1" startTime="71150" endTime="71650"></Effect>
+        <Effect label="A5" startTime="71650" endTime="71850"></Effect>
+        <Effect label="A5" startTime="71900" endTime="72300"></Effect>
+        <Effect label="G1" startTime="72350" endTime="72600"></Effect>
+        <Effect label="B4" startTime="72600" endTime="73050"></Effect>
+        <Effect label="E5" startTime="73200" endTime="73500"></Effect>
+        <Effect label="C2" startTime="73500" endTime="73600"></Effect>
+        <Effect label="E5" startTime="73600" endTime="73800"></Effect>
+        <Effect label="D5" startTime="74100" endTime="74350"></Effect>
+        <Effect label="G1" startTime="74350" endTime="75200"></Effect>
+        <Effect label="E5" startTime="75250" endTime="75550"></Effect>
+        <Effect label="A5" startTime="75550" endTime="75750"></Effect>
+        <Effect label="D4" startTime="75800" endTime="76050"></Effect>
+        <Effect label="G1" startTime="76050" endTime="76750"></Effect>
+        <Effect label="D5" startTime="76800" endTime="77000"></Effect>
+        <Effect label="D2" startTime="77050" endTime="77300"></Effect>
+        <Effect label="D1" startTime="77300" endTime="77800"></Effect>
+        <Effect label="G3" startTime="77800" endTime="78000"></Effect>
+        <Effect label="G1" startTime="78050" endTime="79200"></Effect>
+        <Effect label="D5" startTime="79250" endTime="79700"></Effect>
+        <Effect label="G1" startTime="79750" endTime="80000"></Effect>
+        <Effect label="B5" startTime="80000" endTime="80200"></Effect>
+        <Effect label="G4" startTime="80500" endTime="80750"></Effect>
+        <Effect label="D5" startTime="80750" endTime="80950"></Effect>
+        <Effect label="C2" startTime="81000" endTime="81450"></Effect>
+        <Effect label="E5" startTime="81450" endTime="81700"></Effect>
+        <Effect label="G4" startTime="81750" endTime="81950"></Effect>
+        <Effect label="D3" startTime="81950" endTime="82200"></Effect>
+        <Effect label="G1" startTime="82200" endTime="82450"></Effect>
+        <Effect label="E2" startTime="82450" endTime="82650"></Effect>
+        <Effect label="G1" startTime="82850" endTime="82900"></Effect>
+        <Effect label="C2" startTime="82950" endTime="83350"></Effect>
+        <Effect label="E5" startTime="83350" endTime="83650"></Effect>
+        <Effect label="G4" startTime="83700" endTime="83950"></Effect>
+        <Effect label="G2" startTime="83950" endTime="84200"></Effect>
+        <Effect label="D5" startTime="84200" endTime="84400"></Effect>
+        <Effect label="B4" startTime="84400" endTime="84650"></Effect>
+        <Effect label="G4" startTime="84650" endTime="84850"></Effect>
+        <Effect label="D2" startTime="84900" endTime="85400"></Effect>
+        <Effect label="F#5" startTime="85400" endTime="85600"></Effect>
+        <Effect label="D2" startTime="85650" endTime="85750"></Effect>
+        <Effect label="G4" startTime="85750" endTime="85900"></Effect>
+        <Effect label="D3" startTime="85900" endTime="86150"></Effect>
+        <Effect label="G1" startTime="86150" endTime="86750"></Effect>
+        <Effect label="E4" startTime="86900" endTime="87100"></Effect>
+        <Effect label="C2" startTime="87100" endTime="87150"></Effect>
+        <Effect label="C2" startTime="87200" endTime="87400"></Effect>
+        <Effect label="E5" startTime="87400" endTime="87650"></Effect>
+        <Effect label="C3" startTime="87650" endTime="87850"></Effect>
+        <Effect label="C2" startTime="87850" endTime="88100"></Effect>
+        <Effect label="B4" startTime="88100" endTime="88300"></Effect>
+        <Effect label="C3" startTime="88600" endTime="88800"></Effect>
+        <Effect label="A1" startTime="88850" endTime="89350"></Effect>
+        <Effect label="E4" startTime="89350" endTime="89850"></Effect>
+        <Effect label="B5" startTime="89850" endTime="90300"></Effect>
+        <Effect label="G#2" startTime="90350" endTime="90450"></Effect>
+        <Effect label="A1" startTime="90600" endTime="90750"></Effect>
+        <Effect label="E3" startTime="90800" endTime="91050"></Effect>
+        <Effect label="E2" startTime="91050" endTime="91300"></Effect>
+        <Effect label="B5" startTime="91300" endTime="91550"></Effect>
+        <Effect label="E2" startTime="91550" endTime="91750"></Effect>
+        <Effect label="E5" startTime="91800" endTime="92050"></Effect>
+        <Effect label="E2" startTime="92050" endTime="92750"></Effect>
+        <Effect label="E2" startTime="92800" endTime="93300"></Effect>
+        <Effect label="E5" startTime="93300" endTime="93550"></Effect>
+        <Effect label="D5" startTime="93850" endTime="94250"></Effect>
+        <Effect label="D6" startTime="94250" endTime="94750"></Effect>
+        <Effect label="D3" startTime="94750" endTime="94950"></Effect>
+        <Effect label="D2" startTime="94950" endTime="95250"></Effect>
+        <Effect label="A4" startTime="95250" endTime="95500"></Effect>
+        <Effect label="D2" startTime="95500" endTime="95900"></Effect>
+        <Effect label="D2" startTime="95950" endTime="96450"></Effect>
+        <Effect label="D2" startTime="96500" endTime="96700"></Effect>
+        <Effect label="D5" startTime="96750" endTime="96900"></Effect>
+        <Effect label="D2" startTime="96950" endTime="97350"></Effect>
+        <Effect label="A3" startTime="97350" endTime="97450"></Effect>
+        <Effect label="D2" startTime="97450" endTime="97650"></Effect>
+        <Effect label="E3" startTime="97700" endTime="97950"></Effect>
+        <Effect label="C2" startTime="97950" endTime="98200"></Effect>
+        <Effect label="E5" startTime="98200" endTime="98400"></Effect>
+        <Effect label="C2" startTime="98400" endTime="98650"></Effect>
+        <Effect label="C2" startTime="98900" endTime="99200"></Effect>
+        <Effect label="G#2" startTime="99200" endTime="99400"></Effect>
+        <Effect label="C2" startTime="99450" endTime="99600"></Effect>
+        <Effect label="A3" startTime="99650" endTime="99900"></Effect>
+        <Effect label="A2" startTime="99900" endTime="100450"></Effect>
+        <Effect label="A1" startTime="100450" endTime="100650"></Effect>
+        <Effect label="E4" startTime="100650" endTime="101150"></Effect>
+        <Effect label="C#2" startTime="101150" endTime="101350"></Effect>
+        <Effect label="E3" startTime="101650" endTime="101900"></Effect>
+        <Effect label="E2" startTime="101900" endTime="102100"></Effect>
+        <Effect label="B5" startTime="102100" endTime="102300"></Effect>
+        <Effect label="E5" startTime="102350" endTime="102800"></Effect>
+        <Effect label="E2" startTime="102850" endTime="103100"></Effect>
+        <Effect label="G3" startTime="103100" endTime="103300"></Effect>
+        <Effect label="B5" startTime="103350" endTime="103550"></Effect>
+        <Effect label="E3" startTime="103700" endTime="103850"></Effect>
+        <Effect label="E5" startTime="103850" endTime="104050"></Effect>
+        <Effect label="E5" startTime="104100" endTime="104250"></Effect>
+        <Effect label="F#4" startTime="104300" endTime="104700"></Effect>
+        <Effect label="D2" startTime="104700" endTime="105350"></Effect>
+        <Effect label="F#6" startTime="105350" endTime="105600"></Effect>
+        <Effect label="F#5" startTime="105600" endTime="106300"></Effect>
+        <Effect label="D2" startTime="106300" endTime="107300"></Effect>
+        <Effect label="C#6" startTime="107300" endTime="107500"></Effect>
+        <Effect label="G1" startTime="107800" endTime="108000"></Effect>
+        <Effect label="D3" startTime="108050" endTime="108150"></Effect>
+        <Effect label="D2" startTime="108150" endTime="108200"></Effect>
+        <Effect label="D2" startTime="108250" endTime="108500"></Effect>
+        <Effect label="G4" startTime="108500" endTime="109200"></Effect>
+        <Effect label="A5" startTime="109200" endTime="110150"></Effect>
+        <Effect label="D5" startTime="110150" endTime="110450"></Effect>
+        <Effect label="D2" startTime="110700" endTime="111100"></Effect>
+        <Effect label="A5" startTime="111100" endTime="111450"></Effect>
+        <Effect label="D5" startTime="111450" endTime="111700"></Effect>
+        <Effect label="A5" startTime="111700" endTime="111900"></Effect>
+        <Effect label="B4" startTime="112200" endTime="112400"></Effect>
+        <Effect label="E4" startTime="112600" endTime="112950"></Effect>
+        <Effect label="C2" startTime="112950" endTime="113200"></Effect>
+        <Effect label="G2" startTime="113200" endTime="113450"></Effect>
+        <Effect label="A5" startTime="113450" endTime="113700"></Effect>
+        <Effect label="G1" startTime="113700" endTime="113950"></Effect>
+        <Effect label="G4" startTime="113950" endTime="114250"></Effect>
+        <Effect label="G2" startTime="114400" endTime="114700"></Effect>
+        <Effect label="E5" startTime="114700" endTime="114900"></Effect>
+        <Effect label="A5" startTime="114900" endTime="115100"></Effect>
+        <Effect label="D4" startTime="115150" endTime="115400"></Effect>
+        <Effect label="G2" startTime="115400" endTime="115650"></Effect>
+        <Effect label="G1" startTime="115650" endTime="115900"></Effect>
+        <Effect label="B4" startTime="115900" endTime="116100"></Effect>
+        <Effect label="G4" startTime="116150" endTime="116500"></Effect>
+        <Effect label="A3" startTime="116550" endTime="116650"></Effect>
+        <Effect label="D1" startTime="116650" endTime="116750"></Effect>
+        <Effect label="A3" startTime="116750" endTime="117100"></Effect>
+        <Effect label="A3" startTime="117150" endTime="117300"></Effect>
+        <Effect label="B4" startTime="117350" endTime="117850"></Effect>
+        <Effect label="F#2" startTime="117900" endTime="118050"></Effect>
+        <Effect label="F#2" startTime="118100" endTime="118250"></Effect>
+        <Effect label="F#1" startTime="118250" endTime="118300"></Effect>
+        <Effect label="D5" startTime="118350" endTime="118650"></Effect>
+        <Effect label="E1" startTime="118650" endTime="118850"></Effect>
+        <Effect label="D5" startTime="118850" endTime="119100"></Effect>
+        <Effect label="G3" startTime="119100" endTime="119350"></Effect>
+        <Effect label="G2" startTime="119350" endTime="119500"></Effect>
+        <Effect label="E1" startTime="119600" endTime="119850"></Effect>
+        <Effect label="B4" startTime="119850" endTime="120100"></Effect>
+        <Effect label="D5" startTime="120100" endTime="120400"></Effect>
+        <Effect label="C5" startTime="120450" endTime="120800"></Effect>
+        <Effect label="E5" startTime="120800" endTime="120950"></Effect>
+        <Effect label="C3" startTime="121000" endTime="121050"></Effect>
+        <Effect label="G4" startTime="121050" endTime="121300"></Effect>
+        <Effect label="B4" startTime="121300" endTime="122000"></Effect>
+        <Effect label="G1" startTime="122050" endTime="122250"></Effect>
+        <Effect label="E3" startTime="122300" endTime="122600"></Effect>
+        <Effect label="A1" startTime="122600" endTime="123050"></Effect>
+        <Effect label="G4" startTime="123050" endTime="123300"></Effect>
+        <Effect label="D3" startTime="123300" endTime="123500"></Effect>
+        <Effect label="D5" startTime="123500" endTime="123750"></Effect>
+        <Effect label="B4" startTime="123750" endTime="123950"></Effect>
+        <Effect label="D5" startTime="124000" endTime="124350"></Effect>
+        <Effect label="A2" startTime="124400" endTime="124500"></Effect>
+        <Effect label="D1" startTime="124500" endTime="124950"></Effect>
+        <Effect label="A3" startTime="124950" endTime="125000"></Effect>
+        <Effect label="D5" startTime="125000" endTime="125300"></Effect>
+        <Effect label="G2" startTime="125300" endTime="125450"></Effect>
+        <Effect label="G2" startTime="125500" endTime="125600"></Effect>
+        <Effect label="G1" startTime="125600" endTime="126250"></Effect>
+        <Effect label="G4" startTime="126250" endTime="126450"></Effect>
+        <Effect label="G4" startTime="126500" endTime="127200"></Effect>
+        <Effect label="D4" startTime="127200" endTime="127450"></Effect>
+        <Effect label="G3" startTime="127450" endTime="127700"></Effect>
+        <Effect label="G4" startTime="127700" endTime="127950"></Effect>
+        <Effect label="D4" startTime="127950" endTime="128050"></Effect>
+        <Effect label="D4" startTime="128100" endTime="128150"></Effect>
+        <Effect label="C4" startTime="128200" endTime="128400"></Effect>
+        <Effect label="E5" startTime="128450" endTime="128700"></Effect>
+        <Effect label="C4" startTime="128700" endTime="128900"></Effect>
+        <Effect label="D4" startTime="128950" endTime="129200"></Effect>
+        <Effect label="A6" startTime="129200" endTime="129400"></Effect>
+        <Effect label="B3" startTime="129450" endTime="129600"></Effect>
+        <Effect label="D4" startTime="129650" endTime="129900"></Effect>
+        <Effect label="E3" startTime="129900" endTime="130000"></Effect>
+        <Effect label="G2" startTime="130050" endTime="130100"></Effect>
+        <Effect label="G4" startTime="130150" endTime="130300"></Effect>
+        <Effect label="G4" startTime="130450" endTime="130900"></Effect>
+        <Effect label="B4" startTime="130900" endTime="131150"></Effect>
+        <Effect label="G4" startTime="131150" endTime="131300"></Effect>
+        <Effect label="B4" startTime="131300" endTime="131650"></Effect>
+        <Effect label="G3" startTime="131650" endTime="131850"></Effect>
+        <Effect label="G4" startTime="131900" endTime="132100"></Effect>
+        <Effect label="A2" startTime="132150" endTime="132350"></Effect>
+        <Effect label="A4" startTime="132400" endTime="132650"></Effect>
+        <Effect label="A3" startTime="132650" endTime="132850"></Effect>
+        <Effect label="D4" startTime="132850" endTime="133050"></Effect>
+        <Effect label="B4" startTime="133100" endTime="133350"></Effect>
+        <Effect label="B5" startTime="133350" endTime="133550"></Effect>
+        <Effect label="A4" startTime="133600" endTime="133800"></Effect>
+        <Effect label="B3" startTime="134350" endTime="134500"></Effect>
+        <Effect label="E4" startTime="134500" endTime="134800"></Effect>
+        <Effect label="D5" startTime="134850" endTime="135050"></Effect>
+        <Effect label="D4" startTime="135100" endTime="135350"></Effect>
+        <Effect label="G4" startTime="135350" endTime="135450"></Effect>
+        <Effect label="D4" startTime="135450" endTime="135600"></Effect>
+        <Effect label="D5" startTime="135600" endTime="135800"></Effect>
+        <Effect label="D5" startTime="135850" endTime="136000"></Effect>
+        <Effect label="C3" startTime="136200" endTime="136400"></Effect>
+        <Effect label="C4" startTime="136400" endTime="136550"></Effect>
+        <Effect label="G4" startTime="136550" endTime="136700"></Effect>
+        <Effect label="B5" startTime="136700" endTime="136750"></Effect>
+        <Effect label="D5" startTime="136800" endTime="137050"></Effect>
+        <Effect label="D4" startTime="137050" endTime="137550"></Effect>
+        <Effect label="B4" startTime="137550" endTime="137950"></Effect>
+        <Effect label="E4" startTime="138000" endTime="138200"></Effect>
+        <Effect label="C4" startTime="138250" endTime="138400"></Effect>
+        <Effect label="E4" startTime="138400" endTime="138500"></Effect>
+        <Effect label="E5" startTime="138500" endTime="138700"></Effect>
+        <Effect label="D4" startTime="138750" endTime="139000"></Effect>
+        <Effect label="B4" startTime="139000" endTime="139250"></Effect>
+        <Effect label="G4" startTime="139250" endTime="139400"></Effect>
+        <Effect label="D4" startTime="139450" endTime="139500"></Effect>
+        <Effect label="B4" startTime="139500" endTime="139700"></Effect>
+        <Effect label="D4" startTime="139750" endTime="139800"></Effect>
+        <Effect label="G4" startTime="139850" endTime="139950"></Effect>
+        <Effect label="G4" startTime="140000" endTime="140100"></Effect>
+        <Effect label="E6" startTime="140150" endTime="140400"></Effect>
+        <Effect label="E6" startTime="140450" endTime="140700"></Effect>
+        <Effect label="B4" startTime="140750" endTime="140950"></Effect>
+        <Effect label="A#4" startTime="141000" endTime="141050"></Effect>
+        <Effect label="B3" startTime="141100" endTime="141250"></Effect>
+        <Effect label="D4" startTime="141250" endTime="141400"></Effect>
+        <Effect label="G4" startTime="141450" endTime="141650"></Effect>
+        <Effect label="G4" startTime="141700" endTime="141950"></Effect>
+        <Effect label="G3" startTime="141950" endTime="142200"></Effect>
+        <Effect label="C2" startTime="142200" endTime="142450"></Effect>
+        <Effect label="G4" startTime="142450" endTime="142700"></Effect>
+        <Effect label="C2" startTime="142700" endTime="142950"></Effect>
+        <Effect label="E5" startTime="142950" endTime="143100"></Effect>
+        <Effect label="E5" startTime="143150" endTime="143400"></Effect>
+        <Effect label="C2" startTime="143700" endTime="143850"></Effect>
+        <Effect label="E5" startTime="143900" endTime="144100"></Effect>
+        <Effect label="A1" startTime="144150" endTime="144400"></Effect>
+        <Effect label="E4" startTime="144400" endTime="144650"></Effect>
+        <Effect label="A1" startTime="144700" endTime="144900"></Effect>
+        <Effect label="B5" startTime="144900" endTime="145100"></Effect>
+        <Effect label="A1" startTime="145150" endTime="145850"></Effect>
+        <Effect label="G3" startTime="145900" endTime="146150"></Effect>
+        <Effect label="E2" startTime="146150" endTime="146250"></Effect>
+        <Effect label="E5" startTime="146250" endTime="146350"></Effect>
+        <Effect label="E5" startTime="146400" endTime="146650"></Effect>
+        <Effect label="E2" startTime="146650" endTime="146950"></Effect>
+        <Effect label="B5" startTime="146950" endTime="147100"></Effect>
+        <Effect label="B5" startTime="147150" endTime="147350"></Effect>
+        <Effect label="E3" startTime="147350" endTime="147550"></Effect>
+        <Effect label="E2" startTime="147550" endTime="147800"></Effect>
+        <Effect label="E2" startTime="147850" endTime="148000"></Effect>
+        <Effect label="E5" startTime="148000" endTime="148550"></Effect>
+        <Effect label="D4" startTime="148600" endTime="148800"></Effect>
+        <Effect label="F#5" startTime="148950" endTime="149350"></Effect>
+        <Effect label="D3" startTime="149350" endTime="149650"></Effect>
+        <Effect label="A4" startTime="149650" endTime="149850"></Effect>
+        <Effect label="F#5" startTime="149850" endTime="150350"></Effect>
+        <Effect label="A5" startTime="150350" endTime="150500"></Effect>
+        <Effect label="D2" startTime="150500" endTime="150550"></Effect>
+        <Effect label="D2" startTime="150600" endTime="150850"></Effect>
+        <Effect label="F5" startTime="150850" endTime="151250"></Effect>
+        <Effect label="D5" startTime="151300" endTime="151550"></Effect>
+        <Effect label="A5" startTime="151550" endTime="151750"></Effect>
+        <Effect label="D3" startTime="151800" endTime="152050"></Effect>
+        <Effect label="A4" startTime="152050" endTime="152550"></Effect>
+        <Effect label="D2" startTime="152550" endTime="152750"></Effect>
+        <Effect label="E4" startTime="152800" endTime="153050"></Effect>
+        <Effect label="C2" startTime="153050" endTime="153250"></Effect>
+        <Effect label="E5" startTime="153250" endTime="153500"></Effect>
+        <Effect label="E3" startTime="153500" endTime="153850"></Effect>
+        <Effect label="C2" startTime="153850" endTime="154750"></Effect>
+        <Effect label="E5" startTime="154750" endTime="155000"></Effect>
+        <Effect label="A2" startTime="155000" endTime="155350"></Effect>
+        <Effect label="A1" startTime="155350" endTime="155500"></Effect>
+        <Effect label="E4" startTime="155500" endTime="155700"></Effect>
+        <Effect label="B5" startTime="155700" endTime="156150"></Effect>
+        <Effect label="C#2" startTime="156200" endTime="156400"></Effect>
+        <Effect label="B4" startTime="156700" endTime="156950"></Effect>
+        <Effect label="E2" startTime="156950" endTime="157200"></Effect>
+        <Effect label="B4" startTime="157200" endTime="157450"></Effect>
+        <Effect label="E2" startTime="157450" endTime="157700"></Effect>
+        <Effect label="E5" startTime="157700" endTime="157900"></Effect>
+        <Effect label="B5" startTime="157950" endTime="158350"></Effect>
+        <Effect label="B5" startTime="158400" endTime="158650"></Effect>
+        <Effect label="E2" startTime="158700" endTime="158850"></Effect>
+        <Effect label="E2" startTime="158900" endTime="159200"></Effect>
+        <Effect label="E5" startTime="159200" endTime="159400"></Effect>
+        <Effect label="F#4" startTime="159450" endTime="159650"></Effect>
+        <Effect label="F5" startTime="159700" endTime="159800"></Effect>
+        <Effect label="D2" startTime="159850" endTime="160050"></Effect>
+        <Effect label="D3" startTime="160050" endTime="160150"></Effect>
+        <Effect label="F#6" startTime="160150" endTime="160450"></Effect>
+        <Effect label="D2" startTime="160450" endTime="160650"></Effect>
+        <Effect label="A4" startTime="160650" endTime="161100"></Effect>
+        <Effect label="C#6" startTime="161150" endTime="161400"></Effect>
+        <Effect label="A5" startTime="161400" endTime="161650"></Effect>
+        <Effect label="C#6" startTime="161650" endTime="161800"></Effect>
+        <Effect label="F#5" startTime="161850" endTime="162150"></Effect>
+        <Effect label="C#6" startTime="162150" endTime="162400"></Effect>
+        <Effect label="F#5" startTime="162450" endTime="162850"></Effect>
+        <Effect label="G1" startTime="162850" endTime="163050"></Effect>
+        <Effect label="D2" startTime="163350" endTime="163550"></Effect>
+        <Effect label="A2" startTime="163700" endTime="163800"></Effect>
+        <Effect label="D4" startTime="163800" endTime="165100"></Effect>
+        <Effect label="A5" startTime="165100" endTime="165550"></Effect>
+        <Effect label="D2" startTime="165600" endTime="166550"></Effect>
+        <Effect label="F5" startTime="166550" endTime="167000"></Effect>
+        <Effect label="B3" startTime="167050" endTime="167250"></Effect>
+        <Effect label="D4" startTime="167300" endTime="167500"></Effect>
+        <Effect label="E5" startTime="167650" endTime="168050"></Effect>
+        <Effect label="C2" startTime="168050" endTime="168200"></Effect>
+        <Effect label="G4" startTime="168200" endTime="168300"></Effect>
+        <Effect label="G5" startTime="168300" endTime="168450"></Effect>
+        <Effect label="C2" startTime="168500" endTime="168550"></Effect>
+        <Effect label="D5" startTime="168600" endTime="168800"></Effect>
+        <Effect label="D4" startTime="168800" endTime="168950"></Effect>
+        <Effect label="D5" startTime="169000" endTime="169200"></Effect>
+        <Effect label="G1" startTime="169250" endTime="169450"></Effect>
+        <Effect label="E3" startTime="169500" endTime="169800"></Effect>
+        <Effect label="A5" startTime="169800" endTime="170000"></Effect>
+        <Effect label="E5" startTime="170000" endTime="170200"></Effect>
+        <Effect label="G5" startTime="170250" endTime="170500"></Effect>
+        <Effect label="D5" startTime="170500" endTime="170750"></Effect>
+        <Effect label="G1" startTime="170750" endTime="171000"></Effect>
+        <Effect label="D6" startTime="171000" endTime="171250"></Effect>
+        <Effect label="G4" startTime="171250" endTime="171450"></Effect>
+        <Effect label="A2" startTime="171500" endTime="171850"></Effect>
+        <Effect label="A3" startTime="171850" endTime="172050"></Effect>
+        <Effect label="D1" startTime="172050" endTime="172200"></Effect>
+        <Effect label="G4" startTime="172250" endTime="172450"></Effect>
+        <Effect label="D6" startTime="172450" endTime="173200"></Effect>
+        <Effect label="F#1" startTime="173200" endTime="173250"></Effect>
+        <Effect label="D6" startTime="173250" endTime="173400"></Effect>
+        <Effect label="E2" startTime="173550" endTime="173850"></Effect>
+        <Effect label="E1" startTime="173850" endTime="174050"></Effect>
+        <Effect label="E1" startTime="174100" endTime="174150"></Effect>
+        <Effect label="E1" startTime="174200" endTime="174250"></Effect>
+        <Effect label="D4" startTime="174250" endTime="174500"></Effect>
+        <Effect label="E1" startTime="174500" endTime="174900"></Effect>
+        <Effect label="G3" startTime="174900" endTime="175550"></Effect>
+        <Effect label="C2" startTime="175550" endTime="176150"></Effect>
+        <Effect label="D5" startTime="176150" endTime="176400"></Effect>
+        <Effect label="G2" startTime="176400" endTime="176550"></Effect>
+        <Effect label="G1" startTime="176650" endTime="176850"></Effect>
+        <Effect label="B5" startTime="177150" endTime="177350"></Effect>
+        <Effect label="B5" startTime="177400" endTime="178100"></Effect>
+        <Effect label="G4" startTime="178100" endTime="178350"></Effect>
+        <Effect label="G2" startTime="178350" endTime="178600"></Effect>
+        <Effect label="G1" startTime="178600" endTime="179100"></Effect>
+        <Effect label="G4" startTime="179100" endTime="179300"></Effect>
+        <Effect label="A5" startTime="179500" endTime="179700"></Effect>
+        <Effect label="D1" startTime="179700" endTime="180000"></Effect>
+        <Effect label="A3" startTime="180000" endTime="180100"></Effect>
+        <Effect label="D1" startTime="180100" endTime="180300"></Effect>
+        <Effect label="G1" startTime="180550" endTime="180800"></Effect>
+        <Effect label="D6" startTime="180800" endTime="181250"></Effect>
+        <Effect label="D5" startTime="181300" endTime="181750"></Effect>
+        <Effect label="G1" startTime="181800" endTime="182050"></Effect>
+        <Effect label="G4" startTime="182050" endTime="182300"></Effect>
+        <Effect label="A5" startTime="182300" endTime="182500"></Effect>
+        <Effect label="G4" startTime="182550" endTime="182750"></Effect>
+        <Effect label="B4" startTime="182800" endTime="183000"></Effect>
+        <Effect label="D4" startTime="183050" endTime="183250"></Effect>
+        <Effect label="C2" startTime="183400" endTime="183850"></Effect>
+        <Effect label="E5" startTime="183850" endTime="183950"></Effect>
+        <Effect label="C2" startTime="184050" endTime="184300"></Effect>
+        <Effect label="G1" startTime="184500" endTime="185200"></Effect>
+        <Effect label="E5" startTime="185250" endTime="185800"></Effect>
+        <Effect label="E5" startTime="185850" endTime="185950"></Effect>
+        <Effect label="G4" startTime="186000" endTime="186100"></Effect>
+        <Effect label="C3" startTime="186100" endTime="186300"></Effect>
+        <Effect label="B4" startTime="186350" endTime="186700"></Effect>
+        <Effect label="F#6" startTime="186700" endTime="186900"></Effect>
+        <Effect label="B5" startTime="186950" endTime="187200"></Effect>
+        <Effect label="D2" startTime="187200" endTime="187700"></Effect>
+        <Effect label="F#6" startTime="187700" endTime="188150"></Effect>
+        <Effect label="B5" startTime="188200" endTime="188450"></Effect>
+        <Effect label="G1" startTime="188450" endTime="189000"></Effect>
+        <Effect label="E1" startTime="189450" endTime="189650"></Effect>
+        <Effect label="D5" startTime="189700" endTime="189900"></Effect>
+        <Effect label="G4" startTime="189900" endTime="190100"></Effect>
+        <Effect label="A5" startTime="190150" endTime="190350"></Effect>
+        <Effect label="E1" startTime="190400" endTime="190650"></Effect>
+        <Effect label="B4" startTime="190650" endTime="191050"></Effect>
+        <Effect label="D2" startTime="191050" endTime="191100"></Effect>
+        <Effect label="C2" startTime="191150" endTime="191650"></Effect>
+        <Effect label="E5" startTime="191650" endTime="191850"></Effect>
+        <Effect label="C2" startTime="191900" endTime="192150"></Effect>
+        <Effect label="G2" startTime="192200" endTime="192400"></Effect>
+        <Effect label="G4" startTime="192400" endTime="192850"></Effect>
+        <Effect label="B1" startTime="192850" endTime="193050"></Effect>
+        <Effect label="E5" startTime="193100" endTime="193600"></Effect>
+        <Effect label="A1" startTime="193600" endTime="193850"></Effect>
+        <Effect label="E2" startTime="193850" endTime="193950"></Effect>
+        <Effect label="G4" startTime="194000" endTime="194100"></Effect>
+        <Effect label="G1" startTime="194100" endTime="194750"></Effect>
+        <Effect label="A3" startTime="194750" endTime="194800"></Effect>
+        <Effect label="B5" startTime="194850" endTime="195050"></Effect>
+        <Effect label="C5" startTime="195100" endTime="195250"></Effect>
+        <Effect label="D1" startTime="195300" endTime="195850"></Effect>
+        <Effect label="A4" startTime="195850" endTime="196000"></Effect>
+        <Effect label="G1" startTime="196050" endTime="196300"></Effect>
+        <Effect label="G5" startTime="196300" endTime="196750"></Effect>
+        <Effect label="G1" startTime="196800" endTime="197000"></Effect>
+        <Effect label="F#6" startTime="197050" endTime="197950"></Effect>
+        <Effect label="D4" startTime="197950" endTime="198000"></Effect>
+        <Effect label="D5" startTime="198000" endTime="198300"></Effect>
+        <Effect label="B5" startTime="198300" endTime="198450"></Effect>
+        <Effect label="B5" startTime="198500" endTime="198700"></Effect>
+        <Effect label="A5" startTime="198750" endTime="198950"></Effect>
+        <Effect label="C5" startTime="199000" endTime="199500"></Effect>
+        <Effect label="E5" startTime="199500" endTime="199650"></Effect>
+        <Effect label="D5" startTime="199700" endTime="199900"></Effect>
+        <Effect label="B5" startTime="199950" endTime="204200"></Effect>
+      </EffectLayer>
+    </Element>
     <Element type="model" name="GRP Aux Park">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="0" endTime="1300" palette="0"/>
@@ -6827,15 +7467,13 @@
         <Effect ref="0" name="On" id="4" startTime="5900" endTime="6200" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="6700" endTime="7550" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="7550" endTime="8000" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="9700" endTime="12200" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="13500" endTime="14000" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="14500" endTime="15000" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="9700" endTime="12250" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="13600" endTime="14100" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="14600" endTime="15100" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="15550" endTime="16050" palette="0"/>
         <Effect ref="0" name="On" id="11" startTime="19500" endTime="23500" palette="0"/>
         <Effect ref="0" name="On" id="12" startTime="29800" endTime="30800" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="36700" endTime="37650" palette="0"/>
-        <Effect ref="0" name="On" id="15" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 4">
@@ -6849,15 +7487,13 @@
         <Effect ref="0" name="On" id="6" startTime="8700" endTime="9200" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="9650" endTime="10150" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10650" endTime="11150" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="11700" endTime="12500" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="13000" endTime="13500" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="14000" endTime="14500" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="15000" endTime="15500" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="17000" endTime="21000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11650" endTime="12600" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="13100" endTime="13600" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="14100" endTime="14600" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="15100" endTime="15550" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="17050" endTime="21000" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="27800" endTime="28800" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="37700" endTime="38650" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 5">
@@ -6872,15 +7508,13 @@
         <Effect ref="0" name="On" id="7" startTime="9200" endTime="9650" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10150" endTime="10650" palette="0"/>
         <Effect ref="0" name="On" id="9" startTime="11150" endTime="11650" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="16500" endTime="20500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12600" endTime="13100" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13600" endTime="14100" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14600" endTime="15100" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="16550" endTime="20500" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="28800" endTime="29800" palette="0"/>
         <Effect ref="0" name="On" id="16" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="36700" endTime="37700" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 6">
@@ -6894,31 +7528,29 @@
         <Effect ref="0" name="On" id="6" startTime="8700" endTime="9200" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="9650" endTime="10150" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10650" endTime="11150" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="12050" endTime="12500" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="13000" endTime="13500" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="14000" endTime="14500" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="15000" endTime="15500" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="16000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="12100" endTime="12600" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="13100" endTime="13600" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="14100" endTime="14600" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="15100" endTime="15550" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="16050" endTime="20000" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="29800" endTime="30800" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="35750" endTime="36700" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Falcon Doors">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="16000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" startTime="16050" endTime="20000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Doors (Front)">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="16000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" startTime="16050" endTime="20000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Door Handles (Front)">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="16000" endTime="18000" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="20000" endTime="22000" palette="0"/>
+        <Effect ref="0" name="On" startTime="16050" endTime="18050" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="20000" endTime="21950" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Fogs (Front)">
@@ -6930,12 +7562,10 @@
         <Effect ref="0" name="On" id="4" startTime="5900" endTime="6200" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="6700" endTime="7550" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="7550" endTime="8000" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="13000" endTime="13500" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="14000" endTime="14500" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="13100" endTime="13600" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="14100" endTime="14600" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="15050" endTime="15550" palette="0"/>
         <Effect ref="0" name="On" id="10" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="37700" endTime="38650" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Turns (Front)">
@@ -6948,8 +7578,7 @@
         <Effect ref="0" name="On" id="5" startTime="6700" endTime="7500" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="7500" endTime="8000" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="38650" endTime="39650" palette="0"/>
-        <Effect ref="1" name="On" id="10" startTime="58800" endTime="59800" palette="0"/>
+        <Effect ref="1" name="On" id="8" startTime="58800" endTime="59800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Front)">
@@ -6969,20 +7598,19 @@
         <Effect ref="0" name="On" id="7" startTime="9200" endTime="9650" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10150" endTime="10650" palette="0"/>
         <Effect ref="0" name="On" id="9" startTime="11150" endTime="11650" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="18000" endTime="22000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12600" endTime="13100" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13600" endTime="14100" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14600" endTime="15100" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="18050" endTime="21950" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Mirrors">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="8200" endTime="15500" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="16000" endTime="18000" palette="0"/>
-        <Effect ref="0" name="On" id="2" startTime="20000" endTime="22000" palette="0"/>
+        <Effect ref="0" name="On" startTime="8200" endTime="15550" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="16050" endTime="18050" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="20000" endTime="21950" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Outer Main Beams">
@@ -6996,19 +7624,18 @@
         <Effect ref="0" name="On" id="6" startTime="8700" endTime="9200" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="9650" endTime="10150" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10650" endTime="11150" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="11700" endTime="12500" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="13000" endTime="13500" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="14000" endTime="14500" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="15000" endTime="15500" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="18500" endTime="22500" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11650" endTime="12600" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="13100" endTime="13600" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="14100" endTime="14600" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="15100" endTime="15550" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="18550" endTime="22450" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Door Handles (Rear)">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="18000" endTime="20000" palette="0"/>
-        <Effect ref="0" name="On" id="1" startTime="22000" endTime="23750" palette="0"/>
+        <Effect ref="0" name="On" startTime="18050" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="21950" endTime="23750" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Turns (Rear)">
@@ -7019,10 +7646,8 @@
         <Effect ref="0" name="On" id="3" startTime="4250" endTime="5700" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="6200" endTime="6700" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="7500" endTime="8000" palette="0"/>
-        <Effect ref="0" name="On" id="6" startTime="24700" endTime="26800" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="23900" endTime="25600" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="31950" endTime="33750" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows (Rear)">
@@ -7040,13 +7665,11 @@
         <Effect ref="0" name="On" id="5" startTime="6700" endTime="7500" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="7500" endTime="8000" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="9200" endTime="11700" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="13000" endTime="13500" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="14000" endTime="14500" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="15000" endTime="15500" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="13100" endTime="13600" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="14100" endTime="14600" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="15050" endTime="15550" palette="0"/>
         <Effect ref="0" name="On" id="11" startTime="19000" endTime="23000" palette="0"/>
         <Effect ref="0" name="On" id="12" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="35750" endTime="36700" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Side Repeaters">
@@ -7057,12 +7680,11 @@
         <Effect ref="0" name="On" id="3" startTime="4250" endTime="5700" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="6700" endTime="7500" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="7500" endTime="8000" palette="0"/>
-        <Effect ref="0" name="On" id="6" startTime="9700" endTime="12200" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="13500" endTime="14000" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="14500" endTime="15000" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="15500" endTime="16000" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="9700" endTime="12250" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="13600" endTime="14100" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="14600" endTime="15100" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="15550" endTime="16050" palette="0"/>
         <Effect ref="0" name="On" id="10" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Signatures">
@@ -7077,13 +7699,12 @@
         <Effect ref="0" name="On" id="7" startTime="9200" endTime="9650" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10150" endTime="10650" palette="0"/>
         <Effect ref="0" name="On" id="9" startTime="11150" endTime="11650" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="17500" endTime="21500" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12600" endTime="13100" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13600" endTime="14100" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14600" endTime="15100" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="17550" endTime="21450" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows">
@@ -7104,17 +7725,14 @@
         <Effect ref="0" name="On" id="7" startTime="9200" endTime="9650" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10150" endTime="10650" palette="0"/>
         <Effect ref="0" name="On" id="9" startTime="11150" endTime="11650" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="12500" endTime="13000" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="13500" endTime="14000" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="14500" endTime="15000" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="15500" endTime="16000" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="17500" endTime="21500" palette="0"/>
-        <Effect ref="0" name="On" id="15" startTime="24500" endTime="26550" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="27800" endTime="28800" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="12600" endTime="13050" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13600" endTime="14100" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14550" endTime="15050" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="17550" endTime="21450" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="24750" endTime="26250" palette="0"/>
+        <Effect ref="0" name="On" id="16" startTime="27850" endTime="28800" palette="0"/>
         <Effect ref="0" name="On" id="17" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="32250" endTime="34000" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="37700" endTime="38650" palette="0"/>
-        <Effect ref="0" name="On" id="20" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Rear Window">
@@ -7134,17 +7752,14 @@
         <Effect ref="0" name="On" id="6" startTime="8700" endTime="9200" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="9700" endTime="10200" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="10650" endTime="11150" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="11700" endTime="12500" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="13000" endTime="13500" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="14000" endTime="14500" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="15000" endTime="15500" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="18000" endTime="22000" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="24900" endTime="27100" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="11650" endTime="12550" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="13100" endTime="13600" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="14100" endTime="14600" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="15100" endTime="15550" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="18050" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="25600" endTime="26950" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="28800" endTime="29800" palette="0"/>
         <Effect ref="0" name="On" id="16" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="31800" endTime="33550" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="36700" endTime="37700" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Charge Port">
@@ -7163,12 +7778,10 @@
         <Effect ref="0" name="On" id="5" startTime="6700" endTime="7200" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="7500" endTime="8000" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="8700" endTime="11350" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="13000" endTime="15650" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="16000" endTime="20000" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="23850" endTime="25600" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="13100" endTime="15550" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="16050" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="23900" endTime="25600" palette="0"/>
         <Effect ref="0" name="On" id="11" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="33000" endTime="34750" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Rear Fog Lights">
@@ -7184,17 +7797,14 @@
         <Effect ref="0" name="On" id="8" startTime="9200" endTime="9650" palette="0"/>
         <Effect ref="0" name="On" id="9" startTime="10150" endTime="10650" palette="0"/>
         <Effect ref="0" name="On" id="10" startTime="11150" endTime="11650" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="12500" endTime="13000" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="13500" endTime="14000" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="14500" endTime="15000" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="15500" endTime="16000" palette="0"/>
-        <Effect ref="0" name="On" id="15" startTime="16500" endTime="20500" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="24000" endTime="25800" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="12600" endTime="13100" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="13600" endTime="14100" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="14550" endTime="15050" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="15550" endTime="16050" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="16550" endTime="20550" palette="0"/>
+        <Effect ref="0" name="On" id="16" startTime="24150" endTime="25850" palette="0"/>
         <Effect ref="0" name="On" id="17" startTime="29800" endTime="30800" palette="0"/>
         <Effect ref="0" name="On" id="18" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="32800" endTime="34500" palette="0"/>
-        <Effect ref="0" name="On" id="20" startTime="35750" endTime="36700" palette="0"/>
-        <Effect ref="0" name="On" id="21" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Reverse Lights">
@@ -7209,17 +7819,14 @@
         <Effect ref="0" name="On" id="7" startTime="8700" endTime="9200" palette="0"/>
         <Effect ref="0" name="On" id="8" startTime="9650" endTime="10150" palette="0"/>
         <Effect ref="0" name="On" id="9" startTime="10650" endTime="11150" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="11700" endTime="12500" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="13000" endTime="13500" palette="0"/>
-        <Effect ref="0" name="On" id="12" startTime="14000" endTime="14500" palette="0"/>
-        <Effect ref="0" name="On" id="13" startTime="15000" endTime="15500" palette="0"/>
-        <Effect ref="0" name="On" id="14" startTime="17000" endTime="21000" palette="0"/>
-        <Effect ref="0" name="On" id="15" startTime="24150" endTime="26000" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="11650" endTime="12600" palette="0"/>
+        <Effect ref="0" name="On" id="11" startTime="13100" endTime="13600" palette="0"/>
+        <Effect ref="0" name="On" id="12" startTime="14100" endTime="14600" palette="0"/>
+        <Effect ref="0" name="On" id="13" startTime="15050" endTime="15550" palette="0"/>
+        <Effect ref="0" name="On" id="14" startTime="17050" endTime="21050" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="24400" endTime="26150" palette="0"/>
         <Effect ref="0" name="On" id="16" startTime="28800" endTime="29800" palette="0"/>
         <Effect ref="0" name="On" id="17" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="32600" endTime="34250" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="36750" endTime="37700" palette="0"/>
-        <Effect ref="0" name="On" id="20" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Left Tail">
@@ -7227,19 +7834,19 @@
     </Element>
     <Element type="model" name="Left Outer Main Beam">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="24700" endTime="25500" palette="0"/>
+        <Effect ref="0" name="On" startTime="24750" endTime="25650" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="34150" endTime="34950" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Outer Main Beam">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="26400" endTime="27300" palette="0"/>
+        <Effect ref="0" name="On" startTime="26400" endTime="27100" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="32650" endTime="33450" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Left Inner Main Beam">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="24400" endTime="25300" palette="0"/>
+        <Effect ref="0" name="On" startTime="24900" endTime="25650" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="33950" endTime="34750" palette="0"/>
       </EffectLayer>
     </Element>
@@ -7257,25 +7864,25 @@
     </Element>
     <Element type="model" name="Left Channel 4">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="24200" endTime="25100" palette="0"/>
+        <Effect ref="0" name="On" startTime="24400" endTime="25650" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="33500" endTime="34400" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 4">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="26050" endTime="26950" palette="0"/>
+        <Effect ref="0" name="On" startTime="26050" endTime="26700" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="31850" endTime="32750" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Left Channel 5">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="24000" endTime="24900" palette="0"/>
+        <Effect ref="0" name="On" startTime="24200" endTime="25650" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="33650" endTime="34550" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 5">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="25800" endTime="26700" palette="0"/>
+        <Effect ref="0" name="On" startTime="25900" endTime="26700" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="32000" endTime="32900" palette="0"/>
       </EffectLayer>
     </Element>
@@ -7284,13 +7891,13 @@
     </Element>
     <Element type="model" name="Left Channel 6">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="23800" endTime="24700" palette="0"/>
+        <Effect ref="0" name="On" startTime="23900" endTime="25650" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="33800" endTime="34700" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 6">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="25600" endTime="26500" palette="0"/>
+        <Effect ref="0" name="On" startTime="25650" endTime="26550" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="32150" endTime="33050" palette="0"/>
       </EffectLayer>
     </Element>
@@ -7301,7 +7908,9 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Left Front Fog">
-      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="23950" endTime="24850" palette="0"/>
+      </EffectLayer>
     </Element>
     <Element type="model" name="Right Front Fog">
       <EffectLayer/>
@@ -7359,7 +7968,7 @@
     </Element>
     <Element type="model" name="Liftgate">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="16000" endTime="23750" palette="0"/>
+        <Effect ref="0" name="On" startTime="16050" endTime="23800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Front Window">
