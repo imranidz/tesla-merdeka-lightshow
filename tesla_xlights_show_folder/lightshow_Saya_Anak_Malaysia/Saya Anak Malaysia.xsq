@@ -7488,8 +7488,8 @@
         <Effect ref="0" name="On" id="2" startTime="3250" endTime="3750" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="4250" endTime="5700" palette="0"/>
         <Effect ref="0" name="On" id="4" startTime="6200" endTime="6700" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="37700" endTime="38650" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="38650" endTime="39650" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="37700" endTime="38650" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 5">
@@ -7510,8 +7510,8 @@
         <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="16550" endTime="20500" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="23900" endTime="27850" palette="0"/>
-        <Effect ref="0" name="On" id="18" startTime="36700" endTime="37650" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="38650" endTime="39650" palette="0"/>
+        <Effect ref="0" name="On" id="16" startTime="36700" endTime="37650" palette="0"/>
+        <Effect ref="0" name="On" id="17" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Channel 6">
@@ -7539,8 +7539,8 @@
     </Element>
     <Element type="model" name="GRP Door Handles (Front)">
       <EffectLayer>
-        <Effect ref="0" name="On" id="3" startTime="16050" endTime="18050" palette="0"/>
-        <Effect ref="0" name="On" id="4" startTime="20000" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" startTime="16050" endTime="18050" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="20000" endTime="21950" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Fogs (Front)">
@@ -7602,7 +7602,7 @@
         <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="18050" endTime="21950" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="26850" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="17" startTime="38650" endTime="39650" palette="0"/>
+        <Effect ref="0" name="On" id="16" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Mirrors">
@@ -7630,13 +7630,13 @@
         <Effect ref="0" name="On" id="12" startTime="15100" endTime="15550" palette="0"/>
         <Effect ref="0" name="On" id="13" startTime="18550" endTime="22450" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="25900" endTime="29800" palette="0"/>
-        <Effect ref="0" name="On" id="16" startTime="38650" endTime="39650" palette="0"/>
+        <Effect ref="0" name="On" id="15" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Door Handles (Rear)">
       <EffectLayer>
-        <Effect ref="0" name="On" id="4" startTime="18050" endTime="20000" palette="0"/>
-        <Effect ref="0" name="On" id="5" startTime="21950" endTime="23900" palette="0"/>
+        <Effect ref="0" name="On" startTime="18050" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="21950" endTime="23900" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Turns (Rear)">
@@ -7688,13 +7688,13 @@
         <Effect ref="0" name="On" id="1" startTime="6200" endTime="8200" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="10150" endTime="10650" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="14100" endTime="14600" palette="0"/>
-        <Effect ref="0" name="On" id="5" startTime="15550" endTime="16050" palette="0"/>
-        <Effect ref="0" name="On" id="6" startTime="17050" endTime="18050" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="19000" endTime="20000" palette="0"/>
-        <Effect ref="0" name="On" id="8" startTime="21000" endTime="21950" palette="0"/>
-        <Effect ref="0" name="On" id="9" startTime="22950" endTime="23900" palette="0"/>
-        <Effect ref="0" name="On" id="10" startTime="30800" endTime="31800" palette="0"/>
-        <Effect ref="0" name="On" id="11" startTime="38650" endTime="39650" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="15550" endTime="16050" palette="0"/>
+        <Effect ref="0" name="On" id="5" startTime="17050" endTime="18050" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="19000" endTime="20000" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="21000" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="22950" endTime="23900" palette="0"/>
+        <Effect ref="0" name="On" id="9" startTime="30800" endTime="31800" palette="0"/>
+        <Effect ref="0" name="On" id="10" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Signatures">
@@ -7715,9 +7715,9 @@
         <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="17550" endTime="21450" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="24900" endTime="28850" palette="0"/>
-        <Effect ref="1" name="On" id="17" startTime="32250" endTime="34250" palette="0"/>
-        <Effect ref="2" name="On" id="18" startTime="34250" endTime="36250" palette="0"/>
-        <Effect ref="0" name="On" id="19" startTime="38650" endTime="39650" palette="0"/>
+        <Effect ref="1" name="On" id="16" startTime="32250" endTime="34250" palette="0"/>
+        <Effect ref="2" name="On" id="17" startTime="34250" endTime="36250" palette="0"/>
+        <Effect ref="0" name="On" id="18" startTime="38650" endTime="39650" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Windows">
@@ -7744,7 +7744,7 @@
         <Effect ref="0" name="On" id="13" startTime="15550" endTime="16050" palette="0"/>
         <Effect ref="0" name="On" id="14" startTime="17550" endTime="21450" palette="0"/>
         <Effect ref="0" name="On" id="15" startTime="25400" endTime="27350" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="16" startTime="27850" endTime="28800" palette="0"/>
+        <Effect ref="0" name="On" id="16" startTime="27850" endTime="28800" palette="0"/>
         <Effect ref="0" name="On" id="17" startTime="30800" endTime="31800" palette="0"/>
         <Effect ref="0" name="On" id="18" startTime="32750" endTime="34250" palette="0"/>
         <Effect ref="0" name="On" id="19" startTime="37700" endTime="38650" palette="0"/>
@@ -7885,22 +7885,22 @@
     </Element>
     <Element type="model" name="Left Channel 4">
       <EffectLayer>
-        <Effect ref="0" name="On" id="1" startTime="33500" endTime="34250" palette="0"/>
+        <Effect ref="0" name="On" startTime="33500" endTime="34250" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 4">
       <EffectLayer>
-        <Effect ref="0" name="On" id="1" startTime="31800" endTime="32550" palette="0"/>
+        <Effect ref="0" name="On" startTime="31800" endTime="32550" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Left Channel 5">
       <EffectLayer>
-        <Effect ref="0" name="On" id="1" startTime="33750" endTime="34750" palette="0"/>
+        <Effect ref="0" name="On" startTime="33750" endTime="34750" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 5">
       <EffectLayer>
-        <Effect ref="0" name="On" id="1" startTime="32000" endTime="32800" palette="0"/>
+        <Effect ref="0" name="On" startTime="32000" endTime="32800" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Left Front Turn">
@@ -7911,12 +7911,12 @@
     </Element>
     <Element type="model" name="Left Channel 6">
       <EffectLayer>
-        <Effect ref="0" name="On" id="1" startTime="34000" endTime="35250" palette="0"/>
+        <Effect ref="0" name="On" startTime="34000" endTime="35250" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Channel 6">
       <EffectLayer>
-        <Effect ref="0" name="On" id="1" startTime="32250" endTime="33250" palette="0"/>
+        <Effect ref="0" name="On" startTime="32250" endTime="33250" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Right Front Turn">
