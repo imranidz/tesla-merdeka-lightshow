@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.10</version>
+    <version>2023.09.2</version>
     <author>Darryl Foong, Imran Idzqandar</author>
     <author-email></author-email>
     <author-website></author-website>
@@ -7693,8 +7693,8 @@
         <Effect ref="6" name="On" id="1" startTime="23900" endTime="24400" palette="0"/>
         <Effect ref="5" name="On" id="2" startTime="79000" endTime="86850" palette="0"/>
         <Effect ref="6" name="On" id="3" startTime="86850" endTime="87350" palette="0"/>
-        <Effect ref="5" name="On" selected="1" id="5" startTime="197050" endTime="197550" palette="0"/>
-        <Effect ref="6" name="On" id="6" startTime="202850" endTime="203350" palette="0"/>
+        <Effect ref="5" name="On" id="4" startTime="197050" endTime="197550" palette="0"/>
+        <Effect ref="6" name="On" id="5" startTime="202850" endTime="203350" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Door Handles (Front)">
@@ -7966,15 +7966,15 @@
         <Effect ref="6" name="On" id="7" startTime="71150" endTime="79000" palette="0"/>
         <Effect ref="5" name="On" id="8" startTime="79000" endTime="82900" palette="0"/>
         <Effect ref="6" name="On" id="9" startTime="82900" endTime="86850" palette="0"/>
-        <Effect ref="5" name="On" id="12" startTime="163600" endTime="167000" palette="0"/>
-        <Effect ref="6" name="On" id="13" startTime="167000" endTime="169500" palette="0"/>
-        <Effect ref="5" name="On" id="14" startTime="173450" endTime="177400" palette="0"/>
-        <Effect ref="6" name="On" id="15" startTime="177400" endTime="181300" palette="0"/>
-        <Effect ref="5" name="On" id="16" startTime="181300" endTime="185200" palette="0"/>
-        <Effect ref="6" name="On" id="17" startTime="185200" endTime="189150" palette="0"/>
-        <Effect ref="5" name="On" id="18" startTime="189150" endTime="193100" palette="0"/>
-        <Effect ref="6" name="On" id="19" startTime="193100" endTime="197050" palette="0"/>
-        <Effect ref="5" name="On" id="20" startTime="200900" endTime="202850" palette="0"/>
+        <Effect ref="5" name="On" id="10" startTime="163600" endTime="167000" palette="0"/>
+        <Effect ref="6" name="On" id="11" startTime="167000" endTime="169500" palette="0"/>
+        <Effect ref="5" name="On" id="12" startTime="173450" endTime="177400" palette="0"/>
+        <Effect ref="6" name="On" id="13" startTime="177400" endTime="181300" palette="0"/>
+        <Effect ref="5" name="On" id="14" startTime="181300" endTime="185200" palette="0"/>
+        <Effect ref="6" name="On" id="15" startTime="185200" endTime="189150" palette="0"/>
+        <Effect ref="5" name="On" id="16" startTime="189150" endTime="193100" palette="0"/>
+        <Effect ref="6" name="On" id="17" startTime="193100" endTime="197050" palette="0"/>
+        <Effect ref="5" name="On" id="18" startTime="200900" endTime="202850" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="GRP Outer Main Beams">
@@ -9160,7 +9160,7 @@
         <Effect ref="0" name="On" id="1" startTime="170450" endTime="170950" palette="0"/>
         <Effect ref="0" name="On" id="2" startTime="171450" endTime="171950" palette="0"/>
         <Effect ref="0" name="On" id="3" startTime="172450" endTime="172950" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="4" startTime="189650" endTime="190150" palette="0"/>
+        <Effect ref="0" name="On" id="4" startTime="189650" endTime="190150" palette="0"/>
         <Effect ref="0" name="On" id="5" startTime="190650" endTime="191100" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="191600" endTime="192100" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="192600" endTime="193100" palette="0"/>
