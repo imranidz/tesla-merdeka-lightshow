@@ -13,8 +13,10 @@ Hi we're Darryl and Imran. We made a Tesla lightshow to the tune of 'Saya Anak M
 5. Open up Toybox on the menu, select Light Show and tap Schedule Show.
 6. Select the **Custom USB Light Show** from the drop-down menu. Enjoy!
 
+<img width="1702" alt="SCR-20230814-tyze" src="https://github.com/imranidz/tesla-merdeka-lightshow/assets/66912044/8f3ef453-a1ad-4093-8b59-dd57d99237d4">
+
 ### Play Around With It
-1. We imported the lyrics and added beat timings into the XML file.
+1. We imported the lyrics, synced syllabi and added beat timings into the XML file.
 2. Feel free to pull and modify, change and create your own version!
 3. You might find limitations outlined [here](https://github.com/teslamotors/light-show) useful.
 4. Be sure to use the outlined keys to activate lights and use ramping if needed in the above guide.
