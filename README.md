@@ -2,6 +2,8 @@
 
 Hi we're Darryl and Imran. We made a Tesla lightshow to the tune of 'Saya Anak Malaysia'!
 
+[![Tesla LightShow](https://img.youtube.com/vi/npp_9i5JH9o/0.jpg)](https://www.youtube.com/watch?v=npp_9i5JH9o)
+
 ### Steps to Download & Play On Your Own Tesla:
 1. Download the **fseq** and **mp3** file [here](tesla_xlights_show_folder/lightshow_Saya_Anak_Malaysia)
 2. Prepare a USB flash drive according to this [guide](https://github.com/teslamotors/light-show#usb-flash-drive-requirements) and copy these two files into the drive:
