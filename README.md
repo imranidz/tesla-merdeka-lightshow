@@ -2,15 +2,6 @@
 
 Hi we're Darryl and Imran. We made a Tesla lightshow to the tune of 'Saya Anak Malaysia'!
 
-Guide adapted from [teslamotors/light-show](https://github.com/teslamotors/light-show)
-
-### Supported Vehicles
-- Model S (2021+)
-- Model 3
-- Model X (2021+)
-- Model Y
-- Running Software v11.0 (2021.44.25) or newer
-
 ### Steps to Download & Play On Your Own Tesla:
 1. Download the **fseq** and **mp3** file [here](tesla_xlights_show_folder/lightshow_Saya_Anak_Malaysia)
 2. Prepare a USB flash drive according to this [guide](https://github.com/teslamotors/light-show#usb-flash-drive-requirements) and copy these two files into the drive:
@@ -28,3 +19,12 @@ Guide adapted from [teslamotors/light-show](https://github.com/teslamotors/light
 3. You might find limitations outlined [here](https://github.com/teslamotors/light-show) useful.
 4. Be sure to use the outlined keys to activate lights and use ramping if needed in the above guide.
 5. Reach out to us on twitter @imranidz!
+
+Guide adapted from [teslamotors/light-show](https://github.com/teslamotors/light-show)
+
+### Supported Vehicles
+- Model S (2021+)
+- Model 3
+- Model X (2021+)
+- Model Y
+- Running Software v11.0 (2021.44.25) or newer
