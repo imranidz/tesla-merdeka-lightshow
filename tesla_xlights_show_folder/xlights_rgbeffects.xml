@@ -204,11 +204,11 @@
   </perspectives>
   <settings>
     <scaleImage value="0"/>
-    <defaultSeqView value=""/>
-    <previewWidth value="1280"/>
-    <previewHeight value="720"/>
     <fseqDir value="/Users/imranidz/Documents/GitHub/tesla-merdeka-lightshow/tesla_xlights_show_folder"/>
     <renderCacheDir value="/Users/imranidz/Documents/GitHub/tesla-merdeka-lightshow/tesla_xlights_show_folder"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="720"/>
+    <defaultSeqView value=""/>
   </settings>
   <colors>
     <DisabledEffect Red="200" Green="200" Blue="0"/>
