@@ -20,7 +20,9 @@ Hi we're Darryl and Imran. We made a Tesla lightshow to the tune of 'Saya Anak M
 2. Feel free to pull and modify, change and create your own version!
 3. You might find limitations outlined [here](https://github.com/teslamotors/light-show) useful.
 4. Be sure to use the outlined keys to activate lights and use ramping if needed in the above guide.
-5. Reach out to us on twitter @imranidz!
+5. Reach out to us on twitter!
+<a href="https://twitter.com/xCapDF" ><img src="https://img.shields.io/twitter/follow/xCapDF.svg?style=social" /> </a>
+<a href="https://twitter.com/imranidz" ><img src="https://img.shields.io/twitter/follow/imranidz.svg?style=social" /> </a>
 
 Guide adapted from [teslamotors/light-show](https://github.com/teslamotors/light-show)
 
